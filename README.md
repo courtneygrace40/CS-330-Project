@@ -7,7 +7,7 @@ Author: Courtney Sweeney
 ### History
 C++ is an **object-oriented programming language** that was created as an extension to the C language in 1979 by Bjarne Stroustrup at Bell Labs. The major difference is that C++ supports classes and objects while C does not. One of the strengths of C++ is the amount of control that is given to the programmer. Currently, C++ is the second most popular programming language in the world. 
 
-Some of the uses of C++ include:   
+Some of the uses of C++ include:  
   - Video games
   - Graphical applications and simulations
   - Artificial Intelligence 
