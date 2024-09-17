@@ -19,7 +19,19 @@ Some of the uses of C++ include:
 For history, I used https://www.learncpp.com/cpp-tutorial/introduction-to-cplusplus/.  
 To learn C++, I will be using:
   - https://www.w3schools.com/cpp/default.asp 
-  - https://www.codecademy.com/ 
+  - https://www.codecademy.com/
+
+
+### Hello World Program
+'''
+#include <iostream>
+using namespace std;
+
+int main() {
+  cout << "Hello World!";
+  return 0;
+}
+'''
 
 
 
