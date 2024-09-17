@@ -15,6 +15,7 @@ Some of the uses of C++ include:
   - Audio and video processing
 
 For history, I used https://www.learncpp.com/cpp-tutorial/introduction-to-cplusplus/.
+
 To learn C++, I will be using:
   - https://www.w3schools.com/cpp/default.asp 
   - https://www.codecademy.com/ 
