@@ -23,6 +23,7 @@ To learn C++, I will be using:
 
 
 ### Hello World Program
+Type this code into your program:
 
 ```
 #include <iostream>
@@ -33,6 +34,7 @@ int main() {
   return 0;
 }
 ```
+This will run "Hello, World!", the first program programmers run when learning a new language.  
 
 
 
