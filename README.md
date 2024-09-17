@@ -36,6 +36,11 @@ int main() {
 ```
 This will run "Hello, World!", the first program programmers run when learning a new language.  
 
+## Syntax and Conventions 
+
+### Variables
+
+
 
 
 
