@@ -1,5 +1,7 @@
 # C++ Project
+
 Author: Courtney Sweeney
+
 ## Language overview and setup
 
 ### History
