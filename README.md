@@ -40,6 +40,12 @@ This will run "Hello, World!", the first program programmers run when learning a
 
 ### Variables
 
+Here are the rules for naming variables in C++:
+- Variables MUST begin with a letter or an underscore 
+- Variables can contain letters, digits, and underscores
+- Case-sensitive 
+- Variables cannot contain whitespace or special characters 
+
 
 
 
