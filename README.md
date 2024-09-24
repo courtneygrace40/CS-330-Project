@@ -49,9 +49,9 @@ Here are the rules for naming variables in C++:
 ### Conventions 
 
 C++ is a statically, strongly, and explicitly typed language. 
-- <u>**statically typed:**</u>
-- <u>**strongly typed:**</u>
-- <u>**explicitly typed:**</u>
+- **statically typed:** values are attached to types at composite time
+- **strongly typed:** 
+- **explicitly typed:** type of variable needs to be declared 
 
 
 
