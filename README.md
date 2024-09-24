@@ -66,7 +66,7 @@ char myLetter = 'C';
 ```
 5. **String:**
 ```cpp
-string myString = "Courtney Sweeney";
+string myString = "Courtney";
 ```
 6. **Boolean:**
 ```cpp
