@@ -44,7 +44,24 @@ Here are the rules for naming variables in C++:
 - Variables **MUST** begin with a letter or an underscore 
 - Variables can contain letters, digits, and underscores
 - Case-sensitive 
-- Variables cannot contain whitespace or special characters 
+- Variables cannot contain whitespace or special characters
+
+**Variable Types**
+Here are the basic data types for variables in C++:
+1. Integer
+   a. 
+
+3. Float
+
+4. Double
+
+5. Character
+
+6. String
+
+7. Boolean
+
+8. Pointers
 
 ### Conventions 
 
