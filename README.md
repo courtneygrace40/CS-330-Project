@@ -26,12 +26,12 @@ To learn C++, I will be using:
 Type this code into your program:
 
 ```
-#include <iostream>
-using namespace std;
+#include <iostream>  
+using namespace std;  
 
-int main() {
-  cout << "Hello World!";
-  return 0;
+int main() {   //This is the main function. All C++ programs need a main. 
+  cout << "Hello World!";  //'cout' prints the information to the terminal 
+  return 0; //This ends the function 
 }
 ```
 This will run "Hello, World!", the first program programmers run when learning a new language.  
