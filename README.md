@@ -52,19 +52,30 @@ Here are the basic data types for variables in C++:
 ```cpp
 int myNum = 8;
 ```
-   
-3. **Float:** 
-
-4. **Double:**
-
-5. **Character:**
-
-6. **String:**
-
-7. **Boolean:**
-
-8. **Pointers:**
-
+2. **Float:** 
+```cpp
+float myFloat = 6.59;
+```
+3. **Double:**
+```cpp
+double myDouble = 9.78;
+```
+4. **Character:**
+```cpp
+char myLetter = 'C';
+```
+5. **String:**
+```cpp
+string myString = "Courtney Sweeney";
+```
+6. **Boolean:**
+```cpp
+int myNum = 8;
+```
+7. **Pointers:**
+```cpp
+int myNum = 8;
+```
 ### Conventions 
 
 C++ is a statically, strongly, and explicitly typed language. 
