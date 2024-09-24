@@ -46,8 +46,8 @@ Here are the rules for naming variables in C++:
 - Case-sensitive 
 - Variables cannot contain whitespace or special characters
 
-**Variable Types**
 
+**Variable Types**   
 Here are the basic data types for variables in C++:
 1. **Integer:**
 ```cpp
