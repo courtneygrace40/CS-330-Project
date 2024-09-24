@@ -48,21 +48,22 @@ Here are the rules for naming variables in C++:
 
 **Variable Types**
 Here are the basic data types for variables in C++:
-1. Integer
-   a. Stores data as
+1. **Integer:**
+```cpp
+int myNum = 8;
+```
    
+3. **Float:** 
 
-3. Float
+4. **Double:**
 
-4. Double
+5. **Character:**
 
-5. Character
+6. **String:**
 
-6. String
+7. **Boolean:**
 
-7. Boolean
-
-8. Pointers
+8. **Pointers:**
 
 ### Conventions 
 
