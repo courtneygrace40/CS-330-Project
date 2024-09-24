@@ -29,9 +29,9 @@ Type this code into your program:
 #include <iostream>
 using namespace std;
 
-int main() { // This is the main function
-cout << "Hello World!";
-return 0;
+int main() {           // This is the main function, which is required for every C++ program
+cout << "Hello World!";    //'cout' prints information to the terminal 
+return 0;        //This ends the main function 
 }
 ```
 This will run "Hello, World!", the first program programmers run when learning a new language.  
