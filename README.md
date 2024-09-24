@@ -49,7 +49,8 @@ Here are the rules for naming variables in C++:
 **Variable Types**
 Here are the basic data types for variables in C++:
 1. Integer
-   a. 
+   a. Stores data as
+   
 
 3. Float
 
