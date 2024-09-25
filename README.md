@@ -71,12 +71,24 @@ string myString = "Courtney";
 ```
 6. **Boolean:**
 ```cpp
-int myNum = 8;
+bool myBoolean = true;
 ```
 7. **Pointers:**
 ```cpp
-int myNum = 8;
+string* ptr = &myString;
 ```
+
+**Data Structures in C++**   
+Here are some of the data structures used in C++:
+1. Arrays
+```cpp
+string myArray[5] = {"Courtney", "Liv", "Aubrey", "Sarah", "Kayla"};
+```
+2. Maps
+```cpp
+ map <string, int> dogs = { {"Tuukka", 7}, {"Chloe", 4}, {"Bentley", 12}, {"Cleo", 3}};
+```
+
 ### Conventions 
 
 C++ is a statically, strongly, and explicitly typed language. 
