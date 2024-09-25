@@ -46,45 +46,46 @@ Here are the rules for naming variables in C++:
 - Case-sensitive 
 - Variables cannot contain whitespace or special characters
 
+When a variable is declared, the type must also be declared before the name.  
 
 **Variable Types**   
 Here are the basic data types for variables in C++:
-1. **Integer:**
+1. **Integer:** an integer value (whole number) is stored with this data type
 ```cpp
 int myNum = 8;
 ```
-2. **Float:** 
+2. **Float:** a decimal value is stored with this data type
 ```cpp
 float myFloat = 6.59;
 ```
-3. **Double:**
+3. **Double:** similar to a float, a decimal is stored with this data type. Doubles allow for more digits of the decimal to be stored, so they are a larger data type than floats and integers. 
 ```cpp
 double myDouble = 9.78;
 ```
-4. **Character:**
+4. **Character:** a single character is stored with this data type
 ```cpp
 char myLetter = 'C';
 ```
-5. **String:**
+5. **String:** text is stored with this data type 
 ```cpp
 string myString = "Courtney";
 ```
-6. **Boolean:**
+6. **Boolean:** a Boolean (True or False) is stored with this data type
 ```cpp
 bool myBoolean = true;
 ```
-7. **Pointers:**
+7. **Pointers:** 
 ```cpp
 string* ptr = &myString;
 ```
 
 **Data Structures in C++**   
 Here are some of the data structures used in C++:
-1. Arrays
+1. **Arrays:** stores a collection of information that all MUST be the same data type. Here, "string" is declared when creating the array, so every piece of information in the array is a string. 
 ```cpp
 string myArray[5] = {"Courtney", "Liv", "Aubrey", "Sarah", "Kayla"};
 ```
-2. Maps
+2. **Maps:** 
 ```cpp
  map <string, int> dogs = { {"Tuukka", 7}, {"Chloe", 4}, {"Bentley", 12}, {"Cleo", 3}};
 ```
@@ -94,7 +95,10 @@ string myArray[5] = {"Courtney", "Liv", "Aubrey", "Sarah", "Kayla"};
 C++ is a statically, strongly, and explicitly typed language. 
 - **statically typed:** values are attached to types at composite time
 - **strongly typed:** 
-- **explicitly typed:** type of variable needs to be declared 
+- **explicitly typed:** type of variable needs to be declared
+
+**Types in Operations**
+
 
 
 
