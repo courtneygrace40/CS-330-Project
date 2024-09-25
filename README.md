@@ -79,6 +79,21 @@ bool myBoolean = true;
 string* ptr = &myString;
 ```
 
+**Operations with Different Types**   
+Here, the previously declared variables from above are used to perform different operations. 
+```cpp
+    int mySum = myNum + myDouble;
+    float mySum2 = myNum + myDouble;
+
+    int myProduct = myNum * myDouble;
+    float myProduct2 = myNum * myDouble;
+
+    int myQuotient = myNum/myDouble;
+    float myQuotient2 = myNum/myDouble;
+    int myQuotient3 = myDouble/myNum;
+    float myQuotient4 = myDouble/myNum; 
+```
+
 **Data Structures in C++**   
 Here are some of the data structures used in C++:
 1. **Arrays:** stores a collection of information that all MUST be the same data type. Here, "string" is declared when creating the array, so every piece of information in the array is a string. 
@@ -97,7 +112,7 @@ C++ is a statically, strongly, and explicitly typed language.
 - **strongly typed:** 
 - **explicitly typed:** type of variable needs to be declared
 
-**Types in Operations**
+
 
 
 
