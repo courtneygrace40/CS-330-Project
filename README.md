@@ -47,9 +47,8 @@ Here are the rules for naming variables in C++:
 - Case-sensitive 
 - Variables cannot contain whitespace or special characters
 
-Typically, programmers use **"CamelCase"**, which means that words are separated by capitals. For example, "myNum" would be CamelCase.   
-
-When a variable is declared, the type must also be declared before the name.  
+**Some more information about variables and objects in C++:**   
+There are 98 reserved keywords in C++. This includes words like "bool", "break", "or", "public", and "if". Typically, programmers use **"CamelCase"**, which means that words are separated by capitals. For example, "myNum" would be CamelCase. When a variable is declared, the type must also be declared before the name. Objects in C++ are **mutable** by nature but can be converted to immutable by using "const". The "const" keyword is short for constant, meaning that the variable will become a constant, or in other words, **immutable**. 
 
 **Variable Types**   
 Here are the basic data types for variables in C++:
@@ -82,7 +81,7 @@ bool myBoolean = true;
 string* ptr = &myString;
 ```
 
-**Operations with Different Types**   
+**Operations with Different Types**  
 There are many different operators used in C++. Some of these include:
 1. **Arithmetic Operators**
 - (+) (addition)
@@ -142,8 +141,8 @@ Here, the previously declared variables from above are used to perform different
 ```
 
 **Data Structures in C++**   
-Here are some of the data structures used in C++:
-1. **Arrays:** stores a collection of information that all MUST be the same data type. Here, "string" is declared when creating the array, so every piece of information in the array is a string. 
+C++ has many built-in complex data structures. Some of these include:   
+1. **Arrays:** stores a collection of information that all **MUST** be the same data type. Here, "string" is declared when creating the array, so every piece of information in the array is a string. 
 ```cpp
 string myArray[5] = {"Courtney", "Liv", "Aubrey", "Sarah", "Kayla"};
 ```
@@ -155,9 +154,11 @@ string myArray[5] = {"Courtney", "Liv", "Aubrey", "Sarah", "Kayla"};
 ### Conventions 
 
 C++ is a statically, strongly, and explicitly typed language. 
-- **statically typed:** values are attached to types at composite time
+- **statically typed:** values are attached to types at composite time. 
 - **strongly typed:** variables cannot be implicitly changed, must be explicitly changed. For example, if x = "5", x MUST be explicitly converted into an integer to be used as an integer
 - **explicitly typed:** type of variable needs to be declared. For example, **int** x = 5 is the correct syntax, with "int" declaring the variable type.
+
+Binding for identifiers and operators happens at compile time in C++. 
 
 
 
