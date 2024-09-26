@@ -22,6 +22,9 @@ To learn C++, I will be using:
   - https://www.codecademy.com/
   - https://www.programiz.com/cpp-programming/
 
+### Downloading C++   
+To get started with C++, you must first download a text editor. VSCode is a great text editor and the one that I will be using for this project. 
+
 
 ### Hello World Program
 Type this code into your program:
