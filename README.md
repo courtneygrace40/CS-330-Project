@@ -82,7 +82,7 @@ bool myBoolean = true;
 string* ptr = &myString;
 ```
 
-**Operations with Different Types** 
+**Operations with Different Types**   
 There are many different operators used in C++. Some of these include:
 1. **Arithmetic Operators**
 - (+) (addition)
