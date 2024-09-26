@@ -93,8 +93,8 @@ There are many different operators used in C++. Some of these include:
 2. **Relational Operators**
 - == (is equal to)
 - != (is not equal to)
-- > (is greater than)
-- < (is less than)
+- (>) (is greater than)
+- (<) (is less than)
 - >= (is greater than or equal to)
 - <= (is less than or equal to)
 3. **Logical Operators**
@@ -106,8 +106,8 @@ There are many different operators used in C++. Some of these include:
 - | (Binary OR)
 - ^ (Binary XOR)
 - ~ (Binary One's Complement)
-- /<< (Binary Shift Left)
-- >> (Binary Shift Right)
+- (<<) (Binary Shift Left)
+- (>>) (Binary Shift Right)
 5. **Assignment Operators**
 - = (assigns value to a variable)
 - += (if a += b, a = a + b)
@@ -121,8 +121,8 @@ There are many different operators used in C++. Some of these include:
 - & (memory address, used with pointers)
 - . (accesses members of class objects, etc)
 - -> (used with pointers to access class or variables)
-- /<< (prints the output value)
-- >> (gets the input value) 
+- (<<) (prints the output value)
+- (>>) (gets the input value) 
 - ++ (increases the value by 1)
 - -- (decreases the value by 1) 
 
