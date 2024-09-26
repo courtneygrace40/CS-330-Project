@@ -106,7 +106,7 @@ There are many different operators used in C++. Some of these include:
 - | (Binary OR)
 - ^ (Binary XOR)
 - ~ (Binary One's Complement)
-- << (Binary Shift Left)
+- /<< (Binary Shift Left)
 - >> (Binary Shift Right)
 5. **Assignment Operators**
 - = (assigns value to a variable)
@@ -121,7 +121,7 @@ There are many different operators used in C++. Some of these include:
 - & (memory address, used with pointers)
 - . (accesses members of class objects, etc)
 - -> (used with pointers to access class or variables)
-- << (prints the output value)
+- /<< (prints the output value)
 - >> (gets the input value) 
 - ++ (increases the value by 1)
 - -- (decreases the value by 1) 
