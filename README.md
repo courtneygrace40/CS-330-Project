@@ -20,6 +20,7 @@ For history, I used https://www.learncpp.com/cpp-tutorial/introduction-to-cplusp
 To learn C++, I will be using:
   - https://www.w3schools.com/cpp/default.asp 
   - https://www.codecademy.com/
+  - https://www.programiz.com/cpp-programming/
 
 
 ### Hello World Program
@@ -81,7 +82,51 @@ bool myBoolean = true;
 string* ptr = &myString;
 ```
 
-**Operations with Different Types**   
+**Operations with Different Types** 
+There are many different operators used in C++. Some of these include:
+1. **Arithmetic Operators**
+- + (addition)
+- - (subtraction)
+- * (multiplication)
+- / (division)
+- % (modulo, which gets the remainder)
+2. **Relational Operators**
+- == (is equal to)
+- != (is not equal to)
+- > (is greater than)
+- < (is less than)
+- >= (is greater than or equal to)
+- <= (is less than or equal to)
+3. **Logical Operators**
+- exp 1 **&&** exp2 (Logical **AND**)
+- exp1 **||** exp2 (Logical **OR**)
+- **!** exp (Logical **NOT**)
+4. **Bitwise Operators**
+- & (Binary AND)
+- | (Binary OR)
+- ^ (Binary XOR)
+- ~ (Binary One's Complement)
+- << (Binary Shift Left)
+- >> (Binary Shift Right)
+5. **Assignment Operators**
+- = (assigns value to a variable)
+- += (if a += b, a = a + b)
+- -= (if a -= b, a = a - b)
+- *= (if a *= b, a = a * b)
+- /= (if a /= b, a = a / b)
+- %= (if a %= b, a = a % b)
+6. **Other Operators**
+- sizeof (returns size of data type)
+- ? (returns value based on condition)
+- & (memory address, used with pointers)
+- . (accesses members of class objects, etc)
+- -> (used with pointers to access class or variables)
+- << (prints the output value)
+- >> (gets the input value) 
+- ++ (increases the value by 1)
+- -- (decreases the value by 1) 
+
+  
 Here, the previously declared variables from above are used to perform different operations. 
 ```cpp
     int mySum = myNum + myDouble;
