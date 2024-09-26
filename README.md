@@ -46,6 +46,7 @@ Here are the rules for naming variables in C++:
 - Case-sensitive 
 - Variables cannot contain whitespace or special characters
 
+Typically, programmers use **"CamelCase"**, which means that words are separated by capitals. For example, "myNum" would be CamelCase.   
 When a variable is declared, the type must also be declared before the name.  
 
 **Variable Types**   
