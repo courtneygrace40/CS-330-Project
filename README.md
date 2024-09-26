@@ -76,7 +76,7 @@ string myString = "Courtney";
 ```cpp
 bool myBoolean = true;
 ```
-7. **Pointers:** 
+7. **Pointers:** returns the address of the variable it is "pointing" to 
 ```cpp
 string* ptr = &myString;
 ```
