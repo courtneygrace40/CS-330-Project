@@ -85,18 +85,18 @@ string* ptr = &myString;
 **Operations with Different Types** 
 There are many different operators used in C++. Some of these include:
 1. **Arithmetic Operators**
-- + (addition)
-- - (subtraction)
-- * (multiplication)
-- / (division)
-- % (modulo, which gets the remainder)
+- (+) (addition)
+- (-) (subtraction)
+- (*) (multiplication)
+- (/) (division)
+- (%) (modulo, which gets the remainder)
 2. **Relational Operators**
-- == (is equal to)
-- != (is not equal to)
+- (==) (is equal to)
+- (!=) (is not equal to)
 - (>) (is greater than)
 - (<) (is less than)
-- >= (is greater than or equal to)
-- <= (is less than or equal to)
+- (>=) (is greater than or equal to)
+- (<=) (is less than or equal to)
 3. **Logical Operators**
 - exp 1 **&&** exp2 (Logical **AND**)
 - exp1 **||** exp2 (Logical **OR**)
