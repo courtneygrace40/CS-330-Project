@@ -111,8 +111,8 @@ string myArray[5] = {"Courtney", "Liv", "Aubrey", "Sarah", "Kayla"};
 
 C++ is a statically, strongly, and explicitly typed language. 
 - **statically typed:** values are attached to types at composite time
-- **strongly typed:** 
-- **explicitly typed:** type of variable needs to be declared
+- **strongly typed:** variables cannot be implicitly changed, must be explicitly changed. For example, if x = "5", x MUST be explicitly converted into an integer to be used as an integer
+- **explicitly typed:** type of variable needs to be declared. For example, **int** x = 5 is the correct syntax, with "int" declaring the variable type.
 
 
 
