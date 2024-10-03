@@ -168,6 +168,9 @@ Binding for identifiers and operators happens at compile time in C++.
 ALIASES AND STACK STORAGE IN C++
 
 
+### Functions 
+
+
 
 
 
