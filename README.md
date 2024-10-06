@@ -71,18 +71,21 @@ double myDouble = 9.78;
 ```cpp
 char myLetter = 'C';
 ```
-5. **String:** text is stored with this data type 
-```cpp
-string myString = "Courtney";
-```
-6. **Boolean:** a Boolean (True or False) is stored with this data type
+5. **Boolean:** a Boolean (True or False) is stored with this data type
 ```cpp
 bool myBoolean = true;
 ```
-7. **Pointers:** returns the address of the variable it is "pointing" to 
+6. **Pointers:** returns the address of the variable it is "pointing" to 
 ```cpp
 string* ptr = &myString;
 ```
+7. **String:** text is stored with this data type 
+```cpp
+string myString = "Courtney";
+```
+***A note on strings:***   
+In C++, the string library is a set of useful functions that can be used on strings in C++. 
+
 
 **Operations with Different Types**  
 There are many different operators used in C++. Some of these include:
