@@ -194,7 +194,18 @@ int main(){
 }
 ```
 
-Here is the main function. 
+Here is the main function. It takes in no parameters and always returns 0. C++ programs **MUST** have this function to run. 
+
+Here is an example of a function that has parameters and returns an integer to be used in the main function. 
+```cpp
+    int multiplication(int num1, int num2){
+      int product = num1 * num2;
+      return product;
+}
+```
+Notice the output type declaration and parameter type declarations. "Product" is what is returned, and it is an int, so this program will run. 
+
+
 
 
 
