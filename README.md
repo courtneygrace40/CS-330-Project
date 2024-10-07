@@ -185,7 +185,9 @@ The syntax of a function is as follows:
 **Header:** function output type | function name | (parameter type | parameter name)   
 **Program delineator**: {} curly brackets delineate the function, which open following the header and closing the function after the final line.   
 
-Some of the different types of output include int, string, and void. A void function, such as myFunction, will print to the screen. The **"main"** function in C++ is actually type **int**. This is because the final line is always "return 0;", which signals the end of the program. 
+Some of the different types of output include int, string, and void. A void function, such as myFunction, will print to the screen. The **"main"** function in C++ is actually type **int**. This is because the final line is always "return 0;", which signals the end of the program.   
+
+Here is the main function. It takes in no parameters and always returns 0. C++ programs **MUST** have this function to run. 
 
 ```cpp
 int main(){
@@ -193,8 +195,6 @@ int main(){
     return 0;
 }
 ```
-
-Here is the main function. It takes in no parameters and always returns 0. C++ programs **MUST** have this function to run. 
 
 Here is an example of a function that has parameters and returns an integer to be used in the main function. 
 ```cpp
