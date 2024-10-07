@@ -172,7 +172,26 @@ ALIASES AND STACK STORAGE IN C++
 
 
 ### Functions 
+Programmers use functions extensively in C++. A "beautiful" program consists of a main program (a function in itself) that calls other functions. Here is an example of a function in C++:
 
+```cpp
+void myFunction(){
+    cout << "Hello World!";
+}
+```
+When called, this function will print "Hello World!" to the terminal. The syntax of a function is as follows: 
+**Header:** function output type | function name | (parameter type | parameter name) 
+**Program delineator**: {} curly brackets delineate the function, which open following the header and closing the function after the final line. 
+Some of the different types of output include int, string, and void. A void function, such as myFunction, will print to the screen. The **"main"** function in C++ is actually type **int**. This is because the final line is always "return 0;", which signals the end of the program. 
+
+```cpp
+int main(){
+    cout << "Hello World!";
+    return 0;
+}
+```
+
+Here is the main function. 
 
 
 
