@@ -198,9 +198,9 @@ int main(){
 
 Here is an example of a function that has parameters and returns an integer to be used in the main function. 
 ```cpp
-    int multiplication(int num1, int num2){
-      int product = num1 * num2;
-      return product;
+int multiplication(int num1, int num2){
+    int product = num1 * num2;
+    return product;
 }
 ```
 Notice the output type declaration and parameter type declarations. "Product" is what is returned, and it is an int, so this program will run. 
@@ -213,7 +213,7 @@ void whatNumber(string name, int num){
 }
 ```
 
-Functions in C++ cannot by nature return two values. However, there are a few different ways around that. One way around this is to use arrays. When arrays are changed inside of a function in C++, they are also changed outside of it. Here is an example of a function that splits a string into two and returns both strings by storing them in an array. 
+Functions in C++ cannot by nature return two values. However, there are a few different ways around that. One way around this is to use **arrays**. When arrays are changed inside of a function in C++, they are also changed outside of it. Here is an example of a function that splits a string into two and returns both strings by storing them in an array. 
 
 ```cpp
 void splitter(string myString, string myArray[2]){
@@ -223,6 +223,18 @@ void splitter(string myString, string myArray[2]){
     string myString2 = myString.substr(position, -1); 
     myArray[0] = myString1; 
     myArray[1] = myString2; 
+}
+```
+
+In that function, the values of the strings are stored in the array "myArray" which also exists outside of the function. These values can be accessed in other functions if the array is sent into that function, or can be accessed from main. 
+
+The other way that functions can return two values in C++ is through **pointers**. Here, the function recieves the addresses of two variables. It then uses the addresses to make a change in the function. Here, the address of a is the address of a variable x that lives in main. When the the value at the address of a is changed, the value at the address of x is changed because **the address of a = the address of x**. This makes it so that values don't have to be returned to change the information stored at a value outside of the function. 
+
+```cpp
+void swap(int *a , int *b){  
+    int temp = *a;  
+    *a = *b;
+    *b = temp;
 }
 ```
 
