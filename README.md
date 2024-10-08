@@ -228,7 +228,7 @@ void splitter(string myString, string myArray[2]){
 
 In that function, the values of the strings are stored in the array "myArray" which also exists outside of the function. These values can be accessed in other functions if the array is sent into that function, or can be accessed from main. 
 
-The other way that functions can return two values in C++ is through **pointers**. Here, the function recieves the addresses of two variables. It then uses the addresses to make a change in the function. Here, the address of a is the address of a variable x that lives in main. When the the value at the address of a is changed, the value at the address of x is changed because **the address of a = the address of x**. This makes it so that values don't have to be returned to change the information stored at a value outside of the function. 
+The other way that functions can return two values in C++ is through **pointers**. Here, the function receives the addresses of two variables. It then uses the addresses to make a change in the function. Here, the address of a is the address of a variable x that lives in main. When the value at the address of a is changed, the value at the address of x is changed because **the address of a = the address of x**. This makes it so that values don't have to be returned to change the information stored at a value outside of the function. 
 
 ```cpp
 void swap(int *a , int *b){  
@@ -250,7 +250,38 @@ double factorial(double myNum){
         }
     }
 ```
+C++ supports both pass-by-reference and pass-by-value. Pass-by-value works when a function has a copy of a variable passed into it. Something must be returned in this instance so that any changes to the variable are meaningful. When a function uses pass-by-value, the original value stays the same. Here is an example of a function using pass-by-value in C++:
 
+```cpp
+double num2 = 6;
+double num3 = 7;
+
+int multiplication(int num2, int num3){
+    int product = num2 * num3;
+    num2 = 12; 
+    return product;
+}
+
+int myProduct = multiplication(num2, num3);
+
+```
+
+Here, **num2** and **num3** are both sent into the function. In the function, the value of **num2** is changed to 12. However, this does not change the value of **num2** outside of the function because the **num2** in the function is only a copy. 
+
+Pass-by-reference occurs when the reference to the address of a variable is passed into a function. In C++, this is achieved through pointers. When pointers are passed into a function, the value of a variable outside of the function can be changed directly. Here is an example of a function using pass-by-reference in C++:
+
+
+```cpp
+double num2 = 6;
+double num3 = 7;
+double product = 0;
+
+void multiplication(int num2, int num3, double &a){
+    a = num2 * num3; 
+}
+
+multiplication(num2, num3, product);
+```
 
 
 
