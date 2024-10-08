@@ -213,6 +213,19 @@ void whatNumber(string name, int num){
 }
 ```
 
+Functions in C++ cannot by nature return two values. However, there are a few different ways around that. One way around this is to use arrays. When arrays are changed inside of a function in C++, they are also changed outside of it. Here is an example of a function that splits a string into two and returns both strings by storing them in an array. 
+
+```cpp
+void splitter(string myString, string myArray[2]){
+    char myChar = ' '; 
+    int position = myString.find(myChar); 
+    string myString1 = myString.substr(0, position); 
+    string myString2 = myString.substr(position, -1); 
+    myArray[0] = myString1; 
+    myArray[1] = myString2; 
+}
+```
+
 C++ supports recursive functions. A recursive function is when a function calls itself. Here is an example of a recursive function that finds the factorial of a number. 
 
 ```cpp
