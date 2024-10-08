@@ -205,7 +205,15 @@ Here is an example of a function that has parameters and returns an integer to b
 ```
 Notice the output type declaration and parameter type declarations. "Product" is what is returned, and it is an int, so this program will run. 
 
-C++ supports recursive functions. A recursive function is when a function calls itself. Here is an example of a recursive function that finds a factorial. 
+Functions in C++ can take in multiple parameters of multiple types. Here is an example of a function that takes in a string parameter and an int parameter and prints the values to the screen:
+
+```cpp
+void whatNumber(string name, int num){
+   cout << "\nMy name is " << name << ", and this is my number: " << num; 
+}
+```
+
+C++ supports recursive functions. A recursive function is when a function calls itself. Here is an example of a recursive function that finds the factorial of a number. 
 
 ```cpp
 double factorial(double myNum){
