@@ -181,7 +181,7 @@ void myFunction(){
 ```
 When called, this function will print "Hello World!" to the terminal.   
 
-The syntax of a function is as follows:   
+**The syntax of a function is as follows:**   
 **Header:** function output type | function name | (parameter type | parameter name)   
 **Program delineator**: {} curly brackets delineate the function, which open following the header and closing the function after the final line.   
 
