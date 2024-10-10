@@ -283,8 +283,15 @@ void multiplication(int num2, int num3, double &a){
 multiplication(num2, num3, product);
 ```
 
+### Scoping and Stack Storage
 
+The scoping of a language is where variables can be accessed. C++ is a statically scoped language, meaning the scope of the variable cannot change once the program is executed. 
 
+In C++, variables created in functions are visible during the duration of that function and die when the function ends. If a variable is global, it is visible throughout the entire program and only dies when the program ends. Static variables are different. If a static variable is declared inside of a function, it is only visible inside of the function but lives until the end of the program. 
+
+Scoping can cause side effects in languages where variables are changed when they are not supposed to be. In C++, using global variables and using pass-by-reference can create side effects. One of the guard rails in C++ is the "**const**" keyword, which causes the data in the variable to be unable to be changed. Another guardrail is to use variables only in the scope for which they were created. 
+
+Variables are stored on the stack in C++. As functions and variables are called, they are pushed onto the stack and popped off once they are no longer needed. 
 
 
 
