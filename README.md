@@ -293,7 +293,41 @@ Scoping can cause side effects in languages where variables are changed when the
 
 Variables are stored on the stack in C++. As functions and variables are called, they are pushed onto the stack and popped off once they are no longer needed. 
 
+### Conditionals 
 
+C++ has a variety of conditional statements, including switches, bitwise statements, and if/else statements. 
 
+Here is an example of a conditional statement with one condition. 
+
+```cpp
+void oneCondition(){
+    int x = 8;
+        if (x == 8){
+            cout << "\nx is 8!";
+        }
+}
+```
+The syntax for if statements includes the condition in parentheses and the code to be executed in brackets. If there are more executable statements, C++ uses else if and the same syntax. 
+
+```cpp
+void ifElseStatements(){
+    int a;
+    int b = 17;
+    cout << "I've thought of a number. Now, you type a number: ";
+    cin >> a;
+    if(a>b){
+        cout << "Your number is bigger than my number! You chose " << a << " and I chose " << b << "!";
+    }
+    else if (a<b){
+        cout << "Your number is smaller than my number! You chose " << a << " and I chose " << b << "!";
+    }
+    else{
+        cout << "We chose the same number! You chose " << a << " and I chose " << b << "!";
+    }
+
+}
+```
+
+If/else statements can have two conditions. For or, C++ uses **&&** for the logical **AND**, **||** for the logical **OR**, and **!(statement)** for logical **NOT**. 
 
 
