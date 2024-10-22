@@ -328,6 +328,48 @@ void ifElseStatements(){
 }
 ```
 
-If/else statements can have two conditions. For or, C++ uses **&&** for the logical **AND**, **||** for the logical **OR**, and **!(statement)** for logical **NOT**. 
+If/else statements can have multiple conditions. For or, C++ uses **&&** for the logical **AND**, **||** for the logical **OR**, and **!(statement)** for logical **NOT**. Here is an example of the logical **AND**. 
 
+```cpp
+void twoConditions(){
+    int x = 8;
+    int y = 10;
+        if (x == 8 && y == 10){
+            cout << "\nx is 8 and y is 10!\n";
+        }
+}
+```
+
+C++ allows switch statements. Switch statements compare the input to each case and execute based on when a case is matched. The break and default keywords can be used. If they aren't, the switch will then evaluate every piece of code after. 
+
+```cpp
+void switchStatements(){
+
+    int a = 4;
+    
+    switch(a){
+        case 1:
+            cout << "You are a Sunday!";
+            break;
+        case 2:
+            cout << "You are a Monday!";
+            break;
+        case 3:
+            cout << "You are a Tuesday!";
+            break;
+        case 4:
+            cout << "You are a Wednesday!";
+            break; 
+        case 5: 
+            cout << "You are a Thursday!";
+            break;
+        case 6:
+            cout << "You are a Friday!";
+            break;
+        case 7:
+            cout << "You are a Saturday";
+            break;
+
+    }
+```
 
