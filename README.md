@@ -79,7 +79,9 @@ bool myBoolean = true;
 ```cpp
 string* ptr = &myString;
 ```
-Pointers are a significant data type in C++. They are used to change values stored in variables directly. Pointers point to values on the stack, but can also be empty values pointing to the heap. When a pointer is empty, the C++ coder is allocating memory on the heap.  
+Pointers are a significant data type in C++. They are used to change values stored in variables directly. Pointers point to values on the stack, but can also be empty values pointing to the heap. When a pointer is empty, the C++ coder allocates memory on the heap.  
+
+After a pointer has been created, it can be dereferenced to change the value stored at the address it is pointing to. 
 
 
 7. **String:** text is stored with this data type 
