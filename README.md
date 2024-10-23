@@ -71,7 +71,7 @@ double myDouble = 9.78;
 ```cpp
 char myLetter = 'C';
 ```
-5. **Boolean:** a Boolean (True or False) is stored with this data type
+5. **Boolean:** a Boolean (true or false) is stored with this data type
 ```cpp
 bool myBoolean = true;
 ```
@@ -79,6 +79,9 @@ bool myBoolean = true;
 ```cpp
 string* ptr = &myString;
 ```
+Pointers are a significant data type in C++. They are used to change values stored in variables directly. Pointers point to values on the stack, but can also be empty values pointing to the heap. When a pointer is empty, the C++ coder is allocating memory on the heap.  
+
+
 7. **String:** text is stored with this data type 
 ```cpp
 string myString = "Courtney";
@@ -294,6 +297,8 @@ Scoping can cause side effects in languages where variables are changed when the
 Variables are stored on the stack in C++. As functions and variables are called, they are pushed onto the stack and popped off once they are no longer needed. 
 
 ### Conditionals 
+
+C++ uses the boolean values of "true" and "false". When a boolean is evaluated, C++ returns 1 for "true" and 0 for "false". 
 
 C++ has a variety of conditional statements, including switches, bitwise statements, and if/else statements. 
 
