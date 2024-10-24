@@ -397,3 +397,5 @@ void shortCircuiting(){
 
 Here, the second condition should cause the program to error. However, because C++ short-circuits, the program never reads the second condition because the first condition fails. 
 
+### Dangling Else Problem in C++
+In C++, the "dangling else" can be dealt with by correctly using curly brackets to delineate scope. Since C++ does not understand indentation, curly brackets need to be used so that the compiler knows which if the else is associated with. 
