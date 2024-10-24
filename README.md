@@ -347,7 +347,7 @@ void twoConditions(){
 }
 ```
 
-C++ allows switch statements. Switch statements compare the input to each case and execute based on when a case is matched. The break and default keywords can be used. If they aren't, the switch will then evaluate every piece of code after. 
+C++ allows switch statements. Switch statements compare the input to each case and execute based on when a case is matched. The break and default keywords can be used. If they aren't, the switch will then evaluate every piece of code after. **"Break"** will end the switch statement, and **"default"** is used to delineate code that should be evaluated if none of the cases are met. 
 
 ```cpp
 void switchStatements(){
