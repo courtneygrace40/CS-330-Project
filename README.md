@@ -40,9 +40,7 @@ return 0;
 ```
 This will run "Hello, World!", the first program programmers run when learning a new language.  
 
-## Syntax and Conventions 
-
-### Variables
+## Variables and Operators
 
 Here are the rules for naming variables in C++:
 - Variables **MUST** begin with a letter or an underscore 
@@ -50,11 +48,11 @@ Here are the rules for naming variables in C++:
 - Case-sensitive 
 - Variables cannot contain whitespace or special characters
 
-**Some more information about variables and objects in C++:**   
+### Some more information about variables and objects in C++:  
 There are 98 reserved keywords in C++. This includes words like "bool", "break", "or", "public", and "if". Typically, programmers use **"CamelCase"**, which means that words are separated by capitals. For example, "myNum" would be CamelCase. When a variable is declared, the type must also be declared before the name. Objects in C++ are **mutable** by nature but can be converted to immutable by using "const". The "const" keyword is short for constant, meaning that the variable will become a constant, or in other words, **immutable**. 
 
-**Variable Types**   
-Here are the basic data types for variables in C++:
+### Variable Types  
+**Here are the basic data types for variables in C++:**
 1. **Integer:** an integer value (whole number) is stored with this data type
 ```cpp
 int myNum = 8;
@@ -92,7 +90,7 @@ string myString = "Courtney";
 In C++, the string library is a set of useful functions that can be used on strings in C++. 
 
 
-**Operations with Different Types**  
+### Operations with Different Types  
 There are many different operators used in C++. Some of these include:
 1. **Arithmetic Operators**
 - (+) (addition)
@@ -151,7 +149,7 @@ Here, the previously declared variables from above are used to perform different
     float myQuotient4 = myDouble/myNum; 
 ```
 
-**Data Structures in C++**   
+## Data Structures in C++   
 C++ has many built-in complex data structures. Some of these include:   
 1. **Arrays:** stores a collection of information that all **MUST** be the same data type. Here, "string" is declared when creating the array, so every piece of information in the array is a string. 
 ```cpp
@@ -162,7 +160,7 @@ string myArray[5] = {"Courtney", "Liv", "Aubrey", "Sarah", "Kayla"};
  map <string, int> dogs = { {"Tuukka", 7}, {"Chloe", 4}, {"Bentley", 12}, {"Cleo", 3}};
 ```
 
-### Conventions 
+## Language Conventions 
 
 C++ is a statically, strongly, and explicitly typed language. 
 - **statically typed:** values are attached to types at composite time. 
@@ -176,7 +174,7 @@ Binding for identifiers and operators happens at compile time in C++.
 ALIASES AND STACK STORAGE IN C++
 
 
-### Functions 
+## Functions 
 Programmers use functions extensively in C++. A "beautiful" program consists of a main program (a function in itself) that calls other functions. Here is an example of a function in C++:
 
 ```cpp
@@ -186,7 +184,7 @@ void myFunction(){
 ```
 When called, this function will print "Hello World!" to the terminal.   
 
-**The syntax of a function is as follows:**   
+### The syntax of a function is as follows:  
 **Header:** function output type | function name | (parameter type | parameter name)   
 **Program delineator**: {} curly brackets delineate the function, which open following the header and closing the function after the final line.   
 
@@ -288,7 +286,7 @@ void multiplication(int num2, int num3, double &a){
 multiplication(num2, num3, product);
 ```
 
-### Scoping and Stack Storage
+## Scoping and Stack Storage
 
 The scoping of a language is where variables can be accessed. C++ is a statically scoped language, meaning the scope of the variable cannot change once the program is executed. 
 
@@ -298,7 +296,7 @@ Scoping can cause side effects in languages where variables are changed when the
 
 Variables are stored on the stack in C++. As functions and variables are called, they are pushed onto the stack and popped off once they are no longer needed. 
 
-### Conditionals 
+## Conditionals 
 
 C++ uses the boolean values of "true" and "false". When a boolean is evaluated, C++ returns 1 for "true" and 0 for "false". 
 
@@ -380,7 +378,7 @@ void switchStatements(){
     }
 ```
 
-### Short-Circuiting in C++
+## Short-Circuiting in C++
 
 C++ allows **short-circuiting**, which is used when evaluating the **&& (AND)** operator and the **|| (OR)** operator. Short-circuiting means that the computer only evaluates statements as necessary; for example, if a statement is an **"AND"** statement and the first condition is false, it will not evaluate the second condition. Here is an example of why it is important to know that C++ short-circuits: 
 
@@ -397,5 +395,5 @@ void shortCircuiting(){
 
 Here, the second condition should cause the program to error. However, because C++ short-circuits, the program never reads the second condition because the first condition fails. 
 
-### Dangling Else Problem in C++
+## Dangling Else Problem in C++
 In C++, the "dangling else" can be dealt with by correctly using curly brackets to delineate scope. Since C++ does not understand indentation, curly brackets need to be used so that the compiler knows which if the else is associated with. 
