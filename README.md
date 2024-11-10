@@ -397,3 +397,51 @@ Here, the second condition should cause the program to error. However, because C
 
 ## Dangling Else Problem in C++
 In C++, the "dangling else" can be dealt with by correctly using curly brackets to delineate scope. Since C++ does not understand indentation, curly brackets need to be used so that the compiler knows which if the else is associated with. 
+
+## Classes and Objects
+
+### Syntax
+
+C++ is an object-oriented programming language. This means that programming in C++ revolves around the creation of many objects. Classes are used to create objects, which are instances of the class. 
+
+Here is an example of a class. This class has three public attributes and a public method. When an instance of this class is created, it has all of the following attributes and has the method described in the class. Here, the class attributes do not have default values. **"string fName = "BLANK";"** where **"string fName;"** is would code a default value. 
+
+To code a class, begin with the "class" keyword followed with the name of the class. Inside of the curly brackets for the class, the public, private, and protected keywords can be used to define the access of the attributes and methods. A class can have a mix of access for its attributes and methods. 
+
+```cpp
+class Person {
+        public: 
+            string fName;
+            string lName;
+            string bDay;
+            void toString(){
+                cout << "Hello, " << fName << " " << lName << "!";
+            }
+    };
+```
+
+### String Method 
+
+### Class Inheritance
+
+C++ supports class inheritance. 
+
+```cpp
+class Student: public Person{
+        public:
+        //Student specific attributes 
+            string major = "Undeclared";
+            int id;
+            //Student specific method 
+            void declareMajor(){
+                cout << "\nEnter major: ";
+                cin >> major;
+                cout << "Major updated to " << major << ".";
+            }
+
+};
+```
+
+
+
+
