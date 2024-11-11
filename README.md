@@ -82,7 +82,7 @@ Comments in C++ are signified using //. To end a comment, make a new line.
 There are two options to run this program. One is through VSCode, where there is a "run" option. The other is to select the corresponding terminal file and run it through the terminal. The latter is better for getting user input.
 
 <div style="text-align: center;">
-  <img src="PLPImages/plp7.png" width="600" height="25" />
+  <img src="PLPImages/plp7.png" width="700" height="25" />
 </div>
 
 This will run "Hello, World!", the first program programmers run when learning a new language.  
