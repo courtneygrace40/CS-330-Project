@@ -25,18 +25,27 @@ To learn C++, I will be using:
 ### Downloading C++   
 To get started with C++, you must first download a text editor. VSCode is a great text editor and the one that I will be using for this project. 
 
-To begin, two extensions to VSCode have to be downloaded. The first is C/C++, which is shown here in this image:  
+To begin, two extensions to VSCode have to be downloaded. The first is **C/C++**, which is shown here in this image:  
 <div style="text-align: center;">
   <img src="PLPImages/plp1.png" width="500" height="300" />
-</div>
+</div>    
 
 
-The second is Code Runner. The extension is shown in this image: 
+The second is **Code Runner**. The extension is shown in this image: 
 
 <div style="text-align: center;">
   <img src="PLPImages/plp2.png" width="500" height="250" />
 </div>
 
+After doing this, two settings have to be changed. The first is shown in this image: 
+<div style="text-align: center;">
+  <img src="PLPImages/plp3.png" width="500" height="250" />
+</div>
+
+The second is shown in this image:
+<div style="text-align: center;">
+  <img src="PLPImages/plp4.png" width="500" height="250" />
+</div>
 
 There are two extensions that have to be downloaded. Code Runner and C/C++. Settings to run code, code runner enable run in terminal save file before run Clang xcode-select --install
 
