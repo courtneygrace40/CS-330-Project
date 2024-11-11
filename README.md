@@ -478,6 +478,8 @@ void switchStatements(){
 
 ## Short-Circuiting in C++
 
+(https://medium.com/@mark_91480/short-circuit-evaluation-in-c-6978c0dc332a)
+
 C++ allows **short-circuiting**, which is used when evaluating the **&& (AND)** operator and the **|| (OR)** operator. Short-circuiting means that the computer only evaluates statements as necessary; for example, if a statement is an **"AND"** statement and the first condition is false, it will not evaluate the second condition. Here is an example of why it is important to know that C++ short-circuits: 
 
 ```cpp
@@ -494,6 +496,8 @@ void shortCircuiting(){
 Here, the second condition should cause the program to error. However, because C++ short-circuits, the program never reads the second condition because the first condition fails. 
 
 ## Dangling Else Problem in C++
+(https://www.geeksforgeeks.org/dangling-else-ambiguity/) 
+
 In C++, the "dangling else" can be dealt with by correctly using curly brackets to delineate scope. Since C++ does not understand indentation, curly brackets need to be used so that the compiler knows which if the else is associated with. 
 
 ## Classes and Objects
