@@ -27,14 +27,14 @@ To get started with C++, you must first download a text editor. VSCode is a grea
 
 To begin, two extensions to VSCode have to be downloaded. The first is C/C++, which is shown here in this image:  
 <div style="text-align: center;">
-  <img src="PLPImages/plp1.png" width="400" height="200" />
+  <img src="PLPImages/plp1.png" width="500" height="300" />
 </div>
 
 
 The second is Code Runner. The extension is shown in this image: 
 
 <div style="text-align: center;">
-  <img src="PLPImages/plp2.png" width="400" height="200" />
+  <img src="PLPImages/plp2.png" width="400" height="300" />
 </div>
 
 
