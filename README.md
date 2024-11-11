@@ -23,7 +23,7 @@ To learn C++, I will be using:
   - https://learn.microsoft.com/en-us/cpp/cpp/?view=msvc-170
 
 ### Downloading C++   
-(from https://www.youtube.com/watch?v=Qw5qjRNlC-Y)
+(from https://www.youtube.com/watch?v=Qw5qjRNlC-Y)   
 To get started with C++, there are several steps you must follow.
 1. Download a text editor. VSCode is a great text editor and the one that I will be using for this project. 
 2. Two extensions to VSCode have to be downloaded.
