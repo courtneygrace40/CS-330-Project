@@ -422,9 +422,11 @@ class Person {
 
 ### String Method 
 
+C++ supports the overriding of operators, which can be used to create a "String" method to print an object. C++ uses **cout <<** to print, so the operation to be overriden would be **<<**. 
+
 ### Class Inheritance
 
-C++ supports class inheritance. 
+C++ supports class inheritance. To have one class inherit from another, use this syntax: **class Child: public Parent{}**. This tells C++ to use the attributes and functions of the parent class. There is no "super" keyword in C++ like there is in Java and Python, as C++ understands when attributes of an object's parent class are called. Here is an example of inheritance, where the class Student inherits from the class Person. 
 
 ```cpp
 class Student: public Person{
@@ -441,6 +443,14 @@ class Student: public Person{
 
 };
 ```
+
+**Multilevel and Multiple Inheritance**
+
+C++ supports both multilevel and multiple inheritance. **Multilevel inheritance** occurs when an objects is derived from a child of a different class. If there was a "Student Athlete" class derived from the "Student" class, it would be the grandchild of the "Person" class. 
+
+**Multiple inheritance** occurs when a class inherits from two parent classes. If there was a "Student" class and an "Athlete" class, a "Student Athlete" class could inherit from both of them. To do this, the syntax would be: **class StudentAthlete: public Athlete, public Student{}**. In this case, the StudentAthlete class would inherit the attributes of both an Athlete and a Student. 
+
+
 
 
 
