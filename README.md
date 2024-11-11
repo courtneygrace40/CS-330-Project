@@ -50,6 +50,9 @@ To get started with C++, there are several steps you must follow.
 </div>
 
 8. Download a compiler. For Macs, CLang is used. The command is **xcode-select --install**. If this is correctly installed, check your terminal:
+<div style="text-align: center;">
+  <img src="PLPImages/plp5.png" width=500" height="300" />
+</div>
 
 
 
