@@ -484,6 +484,8 @@ void switchStatements(){
 ### While Loops
 (https://www.w3schools.com/cpp/cpp_while_loop.asp)
 
+For loops in C++, variables exist only within the loop; their scope is limited. This is similar to function code blocks in how the variables are treated. (https://learn.microsoft.com/en-us/cpp/cpp/for-statement-cpp?view=msvc-170)
+
 C++ supports while loops. Here is an example: 
 ```cpp
 void whileLoop(){
