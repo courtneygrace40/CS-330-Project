@@ -439,6 +439,7 @@ ostream& operator <<(ostream& os, const Student& st){
 
 https://learn.microsoft.com/en-us/cpp/standard-library/overloading-the-output-operator-for-your-own-classes?view=msvc-170 
 
+
 **"Friend" Keywod**
 
 Classes can use the keyword "friend" to allow other classes to use private and protected attributes and methods. In the example above, the "friend" attribute declares the ostream& operator function to use private and protected variables of the "Student" class. This is useful for writing string methods. 
