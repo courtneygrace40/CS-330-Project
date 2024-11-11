@@ -580,7 +580,7 @@ virtual void greeting(){
             }
 ```
 
-**Overriden function in Student:**
+**Overridden function in Student:**
 ```cpp
 void greeting() override{
                 cout << "You should be studying.";
