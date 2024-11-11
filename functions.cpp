@@ -69,6 +69,7 @@ double factorial(double myNum){
         }
     }
 
+//Takes in two different variable types
 void whatNumber(string name, int num){
    cout << "\nMy name is " << name << ", and this is my number: " << num; 
 }
