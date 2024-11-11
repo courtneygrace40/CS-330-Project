@@ -79,7 +79,7 @@ return 0;
 
 Comments in C++ are signified using //. To end a comment, make a new line. 
 
-There are two options to run this program. One is through VSCode, where there is a "run" option. The other is to select the corresponding terminal file and run it through the terminal. The latter is better for getting user input.
+There are two options to run this program. One is through VSCode, where there is a "run" option. The other is to select the corresponding terminal file and run it through the terminal. The latter is better for getting user input. Here is an image of what the terminal file looks like: 
 
 <div style="text-align: center;">
   <img src="PLPImages/plp7.png" width="700" height="25" />
