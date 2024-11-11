@@ -187,7 +187,7 @@ Some of these include:
 - -- (decreases the value by 1) 
 
   
-Here, the previously declared variables from above are used to perform different operations. Here, different types are used together in statements. C++ supports implicit conversion to deal with mixed-type operations. This means C++ converts variables to the same type before completing operations. (https://medium.com/@ctchalland/when-you-mix-nuts-and-bolts-type-conversion-c5f4f07e4d83)
+Here, the previously declared variables from above are used to perform different operations. Here, different types are used together in statements. C++ supports implicit conversion to deal with mixed-type operations. This means C++ converts variables to the same type before completing operations. Because values have to be declared as a type, C++ will convert the types into the correct type. (https://medium.com/@ctchalland/when-you-mix-nuts-and-bolts-type-conversion-c5f4f07e4d83)
 
 ```cpp
     int mySum = myNum + myDouble;
