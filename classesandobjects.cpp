@@ -4,10 +4,12 @@ using namespace std;
 
 //This is the class Person, which has three public attributes and a string method
 class Person {
+//Public keyword
         public: 
             string fName;
             string lName;
             string bDay;
+            //Method for Person class
             void toString(){
                 cout << "Hello, " << fName << " " << lName << "!";
             }
