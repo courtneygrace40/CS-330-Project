@@ -30,7 +30,7 @@ To begin, two extensions to VSCode have to be downloaded. The first is C/C++, wh
 The second is Code Runner. The extension is shown in this image: 
 
 <div style="text-align: center;">
-  <img src="PLPImages/plp1.png" width="200" height="100" />
+  <img src="PLPImages/plp2.png" width="200" height="100" />
   <img src="PLPImages/plp1.png" width="200" height="100" />
 </div>
 
