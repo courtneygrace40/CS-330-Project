@@ -420,9 +420,30 @@ class Person {
     };
 ```
 
-### String Method 
+### String Method and the "Friend" Keyword
 
 C++ supports the overriding of operators, which can be used to create a "String" method to print an object. C++ uses **cout <<** to print, so the operation to be overriden would be **<<**. 
+
+Overriding uses references to point to existing variables. When overriding to create the string method, there are references to the output stream and to the object that is being made into a string. 
+
+```cpp
+//This is inside of the class "Student" and is public.
+friend ostream& operator <<(ostream& os, const Student& st);
+
+//This is outside of the class declaration.
+ostream& operator <<(ostream& os, const Student& st){
+    os << st.fName << " " << st.lName << " is a " << st.major << ".";
+    return os;
+}
+```
+
+https://learn.microsoft.com/en-us/cpp/standard-library/overloading-the-output-operator-for-your-own-classes?view=msvc-170 
+
+**"Friend" Keywod**
+
+Classes can use the keyword "friend" to allow other classes to use private and protected attributes and methods. In the example above, the "friend" attribute declares the ostream& operator function to use private and protected variables of the "Student" class. This is useful for writing string methods. 
+
+https://learn.microsoft.com/en-us/cpp/cpp/friend-cpp?view=msvc-170 
 
 ### Class Inheritance
 
@@ -449,6 +470,8 @@ class Student: public Person{
 C++ supports both multilevel and multiple inheritance. **Multilevel inheritance** occurs when an objects is derived from a child of a different class. If there was a "Student Athlete" class derived from the "Student" class, it would be the grandchild of the "Person" class. 
 
 **Multiple inheritance** occurs when a class inherits from two parent classes. If there was a "Student" class and an "Athlete" class, a "Student Athlete" class could inherit from both of them. To do this, the syntax would be: **class StudentAthlete: public Athlete, public Student{}**. In this case, the StudentAthlete class would inherit the attributes of both an Athlete and a Student. 
+
+**Overriding Functions**
 
 
 
