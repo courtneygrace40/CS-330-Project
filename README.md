@@ -39,12 +39,12 @@ The second is **Code Runner**. The extension is shown in this image:
 
 After doing this, two settings have to be changed. The first is shown in this image: 
 <div style="text-align: center;">
-  <img src="PLPImages/plp3.png" width="500" height="250" />
+  <img src="PLPImages/plp3.png" width="400" height="200" />
 </div>
 
 The second is shown in this image:
 <div style="text-align: center;">
-  <img src="PLPImages/plp4.png" width="500" height="250" />
+  <img src="PLPImages/plp4.png" width=400" height="200" />
 </div>
 
 There are two extensions that have to be downloaded. Code Runner and C/C++. Settings to run code, code runner enable run in terminal save file before run Clang xcode-select --install
