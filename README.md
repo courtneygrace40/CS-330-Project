@@ -1,4 +1,4 @@
-# C++ Project
+# C++ Tutorial
 
 Author: Courtney Sweeney
 
