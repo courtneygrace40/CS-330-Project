@@ -22,6 +22,8 @@ To learn C++, I will be using:
   - https://www.programiz.com/cpp-programming/
   - https://learn.microsoft.com/en-us/cpp/cpp/?view=msvc-170
 
+When links are in parentheses for sections, that means that the code was taken or inspired by the code on the website given. 
+
 ### Downloading C++   
 (from https://www.youtube.com/watch?v=Qw5qjRNlC-Y)   
 
@@ -398,7 +400,9 @@ Variables are stored on the stack in C++. As functions and variables are called,
 
 C++ uses the boolean values of "true" and "false". When a boolean is evaluated, C++ returns 1 for "true" and 0 for "false". 
 
-C++ has a variety of conditional statements, including switches, bitwise statements, and if/else statements. 
+C++ has a variety of conditional statements, including switches and if/else statements. 
+
+### If/else
 
 Here is an example of a conditional statement with one condition. 
 
@@ -442,6 +446,7 @@ void twoConditions(){
         }
 }
 ```
+### Switch Statements
 
 C++ allows switch statements. Switch statements compare the input to each case and execute based on when a case is matched. The break and default keywords can be used. If they aren't, the switch will then evaluate every piece of code after. **"Break"** will end the switch statement, and **"default"** is used to delineate code that should be evaluated if none of the cases are met. 
 
@@ -475,6 +480,74 @@ void switchStatements(){
 
     }
 ```
+
+### While Loops
+(https://www.w3schools.com/cpp/cpp_while_loop.asp)
+
+C++ supports while loops. Here is an example: 
+```cpp
+void whileLoop(){
+    int i = 0;
+    while(i<5){
+        cout << "Smile!";
+        i++; 
+    }
+}
+```
+The condition of the loop is in parentheses, and the code to be executed is in {}. 
+
+Do while loops are very similar. 
+```cpp
+void doWhile(){
+    int i = 0;
+    do{
+        cout << "Smile!";
+        i++;
+    }
+    while(i<5);
+
+}
+```
+Here, the condition is put after the code block. 
+
+### For Loops
+(https://www.w3schools.com/cpp/cpp_for_loop.asp)
+
+C++ supports for loops. Here is an example: 
+
+```cpp
+void forLoop(){
+   for(int i = 0; i < 5; i++){
+        cout << "Smile!";
+   }
+}
+```
+The first statement in the parentheses is executed once. The second is the condition. The third is executed for each iteration of the loop. 
+
+C++ also supports "for each" loops and nested for loops. Here is an example of each: 
+
+**Nested Loop:**
+```cpp
+void nestedLoop(){
+    for(int i = 0; i <= 2; i++){
+        cout << "\ni: " << i;
+        for(int j = 3; j <= 4; j++){
+            cout << "\nj: " << j;
+        }
+    }
+}
+```
+
+**For Each Loop:**
+```cpp
+void forEachLoop(){
+    string names[2] = {"Courtney", "Liv"};
+    for(string s: names){
+        cout << s << "\n";
+    }
+}
+```
+This loop iterates over items in an array. 
 
 ## Short-Circuiting in C++
 
