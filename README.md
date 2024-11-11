@@ -408,6 +408,13 @@ Here is an example of a class. This class has three public attributes and a publ
 
 To code a class, begin with the "class" keyword followed with the name of the class. Inside of the curly brackets for the class, the public, private, and protected keywords can be used to define the access of the attributes and methods. A class can have a mix of access for its attributes and methods. 
 
+**Access Types:** 
+1. Public: can be accessed from outside the class
+2. Private: cannot be accessed from outside the class
+3. Protected: can be accessed only from inherited classes
+
+**Example Class**
+
 ```cpp
 class Person {
         public: 
@@ -437,14 +444,14 @@ ostream& operator <<(ostream& os, const Student& st){
 }
 ```
 
-https://learn.microsoft.com/en-us/cpp/standard-library/overloading-the-output-operator-for-your-own-classes?view=msvc-170 
+(code inspiration: https://learn.microsoft.com/en-us/cpp/standard-library/overloading-the-output-operator-for-your-own-classes?view=msvc-170) 
 
 
 **"Friend" Keywod**
 
 Classes can use the keyword "friend" to allow other classes to use private and protected attributes and methods. In the example above, the "friend" attribute declares the ostream& operator function to use private and protected variables of the "Student" class. This is useful for writing string methods. 
 
-https://learn.microsoft.com/en-us/cpp/cpp/friend-cpp?view=msvc-170 
+(https://learn.microsoft.com/en-us/cpp/cpp/friend-cpp?view=msvc-170)
 
 ### Class Inheritance
 
@@ -473,6 +480,30 @@ C++ supports both multilevel and multiple inheritance. **Multilevel inheritance*
 **Multiple inheritance** occurs when a class inherits from two parent classes. If there was a "Student" class and an "Athlete" class, a "Student Athlete" class could inherit from both of them. To do this, the syntax would be: **class StudentAthlete: public Athlete, public Student{}**. In this case, the StudentAthlete class would inherit the attributes of both an Athlete and a Student. 
 
 **Overriding Functions**
+
+When a class inherits from another class, it can override functions so that they are specific to that class. This is very useful since oftentimes classes need the same function (an animal noise function, for example) but need different outputs or uses from it (animals make different noises). 
+
+Here is an example of a class overriding a function: 
+
+**Original function in Person:**
+```cpp
+virtual void greeting(){
+                cout << "Hello traveler!";
+            }
+```
+
+**Overriden function in Student:**
+```cpp
+void greeting() override{
+                cout << "You should be studying.";
+            }
+```
+
+(code inspiration: https://en.cppreference.com/w/cpp/language/override)
+
+There are two important keywords used in these functions: **virtual** and **override**. Virtual is used when a base class has a method that is expected to be overriden. This is required when trying to override a class, otherwise the program will error. 
+
+The **virtual** keyword is also used when creating abstract classes. Abstract classes leave the methods without code and instead declare the name. 
 
 
 
