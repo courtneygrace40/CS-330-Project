@@ -85,7 +85,7 @@ There are two options to run this program. One is through VSCode, where there is
   <img src="PLPImages/plp7.png" width="700" height="25" />
 </div>
 
-This will run "Hello, World!", the first program programmers run when learning a new language.  
+Use either option to see that this code will run "Hello, World!", the first program programmers run when learning a new language.  
 
 ## Variables and Operators
 (https://www.w3schools.com/cpp/cpp_variables_identifiers.asp)
