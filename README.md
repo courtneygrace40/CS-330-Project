@@ -19,8 +19,8 @@ Some of the uses of C++ include:
 For history, I used https://www.learncpp.com/cpp-tutorial/introduction-to-cplusplus/.  
 To learn C++, I will be using:
   - https://www.w3schools.com/cpp/default.asp 
-  - https://www.codecademy.com/
   - https://www.programiz.com/cpp-programming/
+  - https://learn.microsoft.com/en-us/cpp/cpp/?view=msvc-170
 
 ### Downloading C++   
 To get started with C++, you must first download a text editor. VSCode is a great text editor and the one that I will be using for this project. 
@@ -38,6 +38,9 @@ cout << "Hello World!";
 return 0; 
 }
 ```
+
+(from https://www.w3schools.com/cpp/cpp_getstarted.asp)
+
 This will run "Hello, World!", the first program programmers run when learning a new language.  
 
 ## Variables and Operators
@@ -49,10 +52,10 @@ Here are the rules for naming variables in C++:
 - Variables cannot contain whitespace or special characters
 
 ### Some more information about variables and objects in C++:  
-There are 98 reserved keywords in C++. This includes words like "bool", "break", "or", "public", and "if". Typically, programmers use **"CamelCase"**, which means that words are separated by capitals. For example, "myNum" would be CamelCase. When a variable is declared, the type must also be declared before the name. Objects in C++ are **mutable** by nature but can be converted to immutable by using "const". The "const" keyword is short for constant, meaning that the variable will become a constant, or in other words, **immutable**. 
+There are 98 reserved keywords in C++. This includes words like "bool", "break", "or", "public", and "if". Typically, programmers use **"CamelCase"** for C++, which means that words are separated by capitals. For example, "myNum" would be CamelCase. When a variable is declared, the type must also be declared before the name. Objects in C++ are **mutable** by nature but can be converted to immutable by using "const". The "const" keyword is short for constant, meaning that the variable will become a constant, or in other words, **immutable**. 
 
 ### Variable Types  
-**Here are the basic data types for variables in C++:**
+**Here are the basic data types for variables in C++:** (from https://www.w3schools.com/cpp/cpp_variables.asp)
 1. **Integer:** an integer value (whole number) is stored with this data type
 ```cpp
 int myNum = 8;
@@ -87,11 +90,11 @@ After a pointer has been created, it can be dereferenced to change the value sto
 string myString = "Courtney";
 ```
 ***A note on strings:***   
-In C++, the string library is a set of useful functions that can be used on strings in C++. 
+In C++, the string library is a set of useful functions that can be used on strings in C++. This library is used by writing #include <string> at the top of the program. 
 
-
-### Operations with Different Types  
-There are many different operators used in C++. Some of these include:
+### Operations with Different Types 
+There are many different operators used in C++. (from https://www.w3schools.com/cpp/cpp_operators.asp)
+Some of these include: 
 1. **Arithmetic Operators**
 - (+) (addition)
 - (-) (subtraction)
@@ -151,13 +154,42 @@ Here, the previously declared variables from above are used to perform different
 
 ## Data Structures in C++   
 C++ has many built-in complex data structures. Some of these include:   
-1. **Arrays:** stores a collection of information that all **MUST** be the same data type. Here, "string" is declared when creating the array, so every piece of information in the array is a string. 
+1. **Arrays** (https://www.w3schools.com/cpp/cpp_arrays.asp)
+Arrays store a collection of information that all **MUST** be the same data type. Here, "string" is declared when creating the array, so every piece of information in the array is a string.
+
 ```cpp
 string myArray[5] = {"Courtney", "Liv", "Aubrey", "Sarah", "Kayla"};
 ```
-2. **Maps:** 
+
+2. **Maps** (https://www.w3schools.com/cpp/cpp_maps.asp)
+Maps store information in key, value pairs in a similar way to a dictionary. 
 ```cpp
  map <string, int> dogs = { {"Tuukka", 7}, {"Chloe", 4}, {"Bentley", 12}, {"Cleo", 3}};
+```
+
+3. **Structures** (https://www.w3schools.com/cpp/cpp_structs.asp)
+Structures store data in a similar way to a class. Instances can be created if a structure is named. Here, a struct named "MyStruct" is created and an instance is created. 
+
+```cpp
+struct MyStruct{             
+  int myNum;         
+  string myString;   
+}
+MyStruct myStructure;
+myStructure.myNum = 2;
+```
+
+4. **Lists and Vectors** (https://www.w3schools.com/cpp/cpp_list.asp & https://www.w3schools.com/cpp/cpp_vectors.asp)
+To create lists and vectors in C++, their libraries must be included. The list library is included through #include <list>, and vector included through #include <vector>. They function similarly; however, vector items can be indexed while list objects cannot be, while lists are better for adding and removing items from both ends. Here is an example of each:
+
+**Vector:**
+```cpp
+vector <string> names = {"Courtney", "Liv", "Aubrey", "Kayla"};
+```
+
+**List:**
+```cpp
+list <string> names = {"Courtney", "Liv", "Aubrey", "Kayla"};
 ```
 
 ## Language Conventions 
@@ -167,7 +199,7 @@ C++ is a statically, strongly, and explicitly typed language.
 - **strongly typed:** variables cannot be implicitly changed, must be explicitly changed. For example, if x = "5", x MUST be explicitly converted into an integer to be used as an integer
 - **explicitly typed:** type of variable needs to be declared. For example, **int** x = 5 is the correct syntax, with "int" declaring the variable type.
 
-Binding for identifiers and operators happens at compile time in C++. 
+Binding for identifiers and operators happens at compile time in C++, except when the virtual keyword is used. When virtual is used, binding occurs at runntime. (from https://www.geeksforgeeks.org/early-binding-late-binding-c/)
 
 In C++, aliases can be used to create new identifiers for variable types. The "using" and "typedef" keywords are used to do this. Here, I will use the alias "str" for string. 
 
@@ -190,6 +222,8 @@ Here, func is created as a function that takes in an integer and returns a void.
 
 
 ## Functions 
+(https://www.w3schools.com/cpp/cpp_functions.asp)
+
 Programmers use functions extensively in C++. A "beautiful" program consists of a main program (a function in itself) that calls other functions. Here is an example of a function in C++:
 
 ```cpp
@@ -312,6 +346,7 @@ Scoping can cause side effects in languages where variables are changed when the
 Variables are stored on the stack in C++. As functions and variables are called, they are pushed onto the stack and popped off once they are no longer needed. 
 
 ## Conditionals 
+(https://www.w3schools.com/cpp/cpp_conditions.asp)
 
 C++ uses the boolean values of "true" and "false". When a boolean is evaluated, C++ returns 1 for "true" and 0 for "false". 
 
@@ -414,6 +449,8 @@ Here, the second condition should cause the program to error. However, because C
 In C++, the "dangling else" can be dealt with by correctly using curly brackets to delineate scope. Since C++ does not understand indentation, curly brackets need to be used so that the compiler knows which if the else is associated with. 
 
 ## Classes and Objects
+
+(https://www.w3schools.com/cpp/cpp_classes.asp)
 
 ### Syntax
 
