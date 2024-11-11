@@ -25,6 +25,8 @@ To learn C++, I will be using:
 ### Downloading C++   
 To get started with C++, you must first download a text editor. VSCode is a great text editor and the one that I will be using for this project. 
 
+There are two extensions that have to be downloaded. Code Runner and C/C++. Settings to run code, code runner enable run in terminal save file before run Clang xcode-select --install
+
 
 ### Hello World Program
 Type this code into your program:
