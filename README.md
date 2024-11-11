@@ -142,24 +142,24 @@ In C++, the string library is a set of useful functions that can be used on stri
 ### Operations with Different Types 
 There are many different operators used in C++. (from https://www.w3schools.com/cpp/cpp_operators.asp)
 Some of these include: 
-1. **Arithmetic Operators**
+1. **Arithmetic Operators** (used with ints, doubles, floats)
 - (+) (addition)
 - (-) (subtraction)
 - (*) (multiplication)
 - (/) (division)
 - (%) (modulo, which gets the remainder)
-2. **Relational Operators**
+2. **Relational Operators** (ints, doubles, floats, strings)
 - (==) (is equal to)
 - (!=) (is not equal to)
 - (>) (is greater than)
 - (<) (is less than)
 - (>=) (is greater than or equal to)
 - (<=) (is less than or equal to)
-3. **Logical Operators**
+3. **Logical Operators** (expressions)
 - exp 1 **&&** exp2 (Logical **AND**)
 - exp1 **||** exp2 (Logical **OR**)
 - **!** exp (Logical **NOT**)
-4. **Bitwise Operators**
+4. **Bitwise Operators** (ints)
 - & (Binary AND)
 - | (Binary OR)
 - ^ (Binary XOR)
