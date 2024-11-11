@@ -3,10 +3,6 @@
 using namespace std;
 
 
-
-
-
-
 //One condition conditional 
 void oneCondition(){
     int x = 8;
@@ -36,29 +32,36 @@ void doWhile(){
 
 }
 
+//For loop
 void forLoop(){
    for(int i = 0; i < 5; i++){
+       //Every time the loop executes it prints "Smile"
         cout << "Smile!";
    }
 }
 
+//ForEach Loop
 void forEachLoop(){
     string names[2] = {"Courtney", "Liv"};
+    //Iterates over the array 
     for(string s: names){
         cout << s << "\n";
     }
 }
 
+//Nested For Loop
 void nestedLoop(){
+    //Outer Loop
     for(int i = 0; i <= 2; i++){
         cout << "\ni: " << i;
+        //Inner Loop
         for(int j = 3; j <= 4; j++){
             cout << "\nj: " << j;
         }
     }
 }
 
-//Two condition conditional
+// Two condition conditional
 void twoConditions(){
     int x = 8;
     int y = 10;
@@ -67,7 +70,7 @@ void twoConditions(){
         }
 }
 
-//If/else statement 
+// If/else statement 
 void ifElseStatements(){
     int a;
     int b = 17;
@@ -87,6 +90,7 @@ void ifElseStatements(){
 
 //Switch statement 
 void switchStatements(){
+    // Variable evaluated 
     int a;
     cout << "\nEnter a number from 1 to 7: ";
     cin >> a;
@@ -124,6 +128,7 @@ void switchStatements(){
 
 //Short-circuiting example
 void shortCircuiting(){
+    // These will never be true. Since the first will never be true, C++ stops short and never evaluates 0/0.
     if(8==7 && 0/0){
         cout << "This shouldn't ever print.";
     }
