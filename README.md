@@ -68,6 +68,7 @@ Type this code into your program:
 #include <iostream>  
 using namespace std;  
 
+//This is a comment!
 int main() { 
 cout << "Hello World!"; 
 return 0; 
@@ -75,6 +76,10 @@ return 0;
 ```
 
 (from https://www.w3schools.com/cpp/cpp_getstarted.asp)
+
+Comments in C++ are signified using //. To end a comment, make a new line. 
+
+There are two options to run this program. One is through VSCode, where there is a "run" option. The other is to select the corresponding terminal file and run it through the terminal. The latter is better for getting user input. 
 
 This will run "Hello, World!", the first program programmers run when learning a new language.  
 
