@@ -47,8 +47,12 @@ After a pointer has been created, it can be dereferenced to change the value sto
 ```cpp
 string myString = "Courtney";
 ```
-***A note on strings:***   
-In C++, the string library is a set of useful functions that can be used on strings in C++. This library is used by writing #include <string> at the top of the program. 
+**A note on strings:**
+In C++, the string library is a set of useful functions that can be used on strings in C++. This library is used by writing #include <string> at the program's top, like this: 
+
+```cpp
+#include <string>
+```
 
 ## Operations with Different Types 
 There are many different operators used in C++. (from https://www.w3schools.com/cpp/cpp_operators.asp)
