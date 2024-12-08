@@ -1,4 +1,4 @@
-## Variables and Operators
+# Variables and Operators
 (https://www.w3schools.com/cpp/cpp_variables_identifiers.asp)
 
 Here are the rules for naming variables in C++:
@@ -7,12 +7,12 @@ Here are the rules for naming variables in C++:
 - Case-sensitive 
 - Variables cannot contain whitespace or special characters
 
-### Some more information about variables and objects in C++:  
+## Some more information about variables and objects in C++:  
 There are 98 reserved keywords in C++. This includes words like "bool", "break", "or", "public", and "if". Typically, programmers use **"CamelCase"** for C++, which means that words are separated by capitals. For example, "myNum" would be CamelCase. When a variable is declared, the type must also be declared before the name. 
 
 Objects in C++ are **mutable** by nature but can be converted to immutable by using "const". The "const" keyword is short for constant, meaning that the variable will become a constant, or in other words, **immutable**. 
 
-### Variable Types  
+## Variable Types  
 **Here are the basic data types for variables in C++:** (from https://www.w3schools.com/cpp/cpp_variables.asp)
 1. **Integer:** an integer value (whole number) is stored with this data type
 ```cpp
@@ -50,7 +50,7 @@ string myString = "Courtney";
 ***A note on strings:***   
 In C++, the string library is a set of useful functions that can be used on strings in C++. This library is used by writing #include <string> at the top of the program. 
 
-### Operations with Different Types 
+## Operations with Different Types 
 There are many different operators used in C++. (from https://www.w3schools.com/cpp/cpp_operators.asp)
 Some of these include: 
 1. **Arithmetic Operators** (used with ints, doubles, floats)
@@ -143,12 +143,12 @@ myStructure.myNum = 2;
 4. **Lists and Vectors** (https://www.w3schools.com/cpp/cpp_list.asp & https://www.w3schools.com/cpp/cpp_vectors.asp)
 To create lists and vectors in C++, their libraries must be included. The list library is included through #include <list>, and vector included through #include <vector>. They function similarly; however, vector items can be indexed while list objects cannot be, while lists are better for adding and removing items from both ends. Here is an example of each:
 
-**Vector:**
+### Vector:
 ```cpp
 vector <string> names = {"Courtney", "Liv", "Aubrey", "Kayla"};
 ```
 
-**List:**
+### List:
 ```cpp
 list <string> names = {"Courtney", "Liv", "Aubrey", "Kayla"};
 ```
