@@ -88,12 +88,12 @@ void switchStatements(){
 
 ## Repetition Statements
 
+For loops in C++, variables exist only within the loop; their scope is limited. This is similar to function code blocks in how the variables are treated. (https://learn.microsoft.com/en-us/cpp/cpp/for-statement-cpp?view=msvc-170)
+
 ### While Loops
 (https://www.w3schools.com/cpp/cpp_while_loop.asp)
 
-For loops in C++, variables exist only within the loop; their scope is limited. This is similar to function code blocks in how the variables are treated. (https://learn.microsoft.com/en-us/cpp/cpp/for-statement-cpp?view=msvc-170)
-
-C++ supports while loops. Here is an example: 
+C++ supports ```while``` loops. Here is an example: 
 ```cpp
 void whileLoop(){
     int i = 0;
@@ -105,7 +105,7 @@ void whileLoop(){
 ```
 The condition of the loop is in parentheses, and the code to be executed is in {}. 
 
-Do while loops are very similar. 
+```Do while``` loops are very similar. 
 ```cpp
 void doWhile(){
     int i = 0;
@@ -122,7 +122,7 @@ Here, the condition is put after the code block.
 ### For Loops
 (https://www.w3schools.com/cpp/cpp_for_loop.asp)
 
-C++ supports for loops. Here is an example: 
+C++ supports ```for``` loops. Here is an example: 
 
 ```cpp
 void forLoop(){
@@ -133,7 +133,7 @@ void forLoop(){
 ```
 The first statement in the parentheses is executed once. The second is the condition. The third is executed for each iteration of the loop. 
 
-C++ also supports "for each" loops and nested for loops. Here is an example of each: 
+C++ also supports ```for each``` loops and nested ```for``` loops. Here is an example of each: 
 
 **Nested Loop:**
 ```cpp
