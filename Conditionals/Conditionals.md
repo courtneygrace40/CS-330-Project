@@ -5,7 +5,9 @@ C++ uses the boolean values of ```true``` and ```false```. When a boolean is eva
 
 C++ has a variety of conditional statements; for selection statements, C++ uses switches and if/else statements. For repetition statements, C++ uses ```for``` and ```while``` loops. 
 
-## If/else
+## Selection Statements 
+
+### If/Else Statements
 
 Here is an example of a conditional statement with one condition. 
 
@@ -49,7 +51,7 @@ void twoConditions(){
         }
 }
 ```
-## Switch Statements
+### Switch Statements
 
 C++ allows switch statements. Switch statements compare the input to each case and execute based on when a case is matched. The break and default keywords can be used. If they aren't, the switch will then evaluate every piece of code after. **"Break"** will end the switch statement, and **"default"** is used to delineate code that should be evaluated if none of the cases are met. 
 
@@ -84,7 +86,9 @@ void switchStatements(){
     }
 ```
 
-## While Loops
+## Repetition Statements
+
+### While Loops
 (https://www.w3schools.com/cpp/cpp_while_loop.asp)
 
 For loops in C++, variables exist only within the loop; their scope is limited. This is similar to function code blocks in how the variables are treated. (https://learn.microsoft.com/en-us/cpp/cpp/for-statement-cpp?view=msvc-170)
@@ -115,7 +119,7 @@ void doWhile(){
 ```
 Here, the condition is put after the code block. 
 
-## For Loops
+### For Loops
 (https://www.w3schools.com/cpp/cpp_for_loop.asp)
 
 C++ supports for loops. Here is an example: 
