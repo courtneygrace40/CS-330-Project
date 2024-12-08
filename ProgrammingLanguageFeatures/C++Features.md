@@ -36,3 +36,7 @@ Scoping can cause side effects in languages where variables are changed when the
 
 Variables are stored on the stack in C++. As functions and variables are called, they are pushed onto the stack and popped off once they are no longer needed. Dynamically allocated memory is stored on the heap. (https://www.learncpp.com/cpp-tutorial/the-stack-and-the-heap/)
 
+## Dangling Else Problem in C++
+(https://www.geeksforgeeks.org/dangling-else-ambiguity/) 
+
+In C++, the "dangling else" can be dealt with by correctly using curly brackets to delineate scope. Since C++ does not understand indentation, curly brackets need to be used so that the compiler knows which if the else is associated with. 
