@@ -3,7 +3,7 @@
 
 C++ uses the boolean values of ```true``` and ```false```. When a boolean is evaluated, C++ returns 1 for "true" and 0 for "false". 
 
-C++ has a variety of conditional statements, including switches and if/else statements. 
+C++ has a variety of conditional statements; for selection statements, C++ uses switches and if/else statements. For repetition statements, C++ uses ```for``` and ```while``` loops. 
 
 ## If/else
 
