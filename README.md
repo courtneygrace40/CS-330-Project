@@ -610,7 +610,7 @@ class Person {
 
 ### String Method and the "Friend" Keyword
 
-C++ supports the overriding of operators, which can be used to create a "String" method to print an object. C++ uses **cout <<** to print, so the operation to be overriden would be **<<**. 
+C++ supports the overriding of operators, which can be used to create a "String" method to print an object. C++ uses **cout <<** to print, so the operation to be overridden would be **<<**. 
 
 Overriding uses references to point to existing variables. When overriding to create the string method, there are references to the output stream and to the object that is being made into a string. 
 
