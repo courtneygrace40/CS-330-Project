@@ -1,7 +1,7 @@
 # Conditionals 
 (https://www.w3schools.com/cpp/cpp_conditions.asp)
 
-C++ uses the boolean values of ```true``` and "false". When a boolean is evaluated, C++ returns 1 for "true" and 0 for "false". 
+C++ uses the boolean values of ```true``` and ```false```. When a boolean is evaluated, C++ returns 1 for "true" and 0 for "false". 
 
 C++ has a variety of conditional statements, including switches and if/else statements. 
 
