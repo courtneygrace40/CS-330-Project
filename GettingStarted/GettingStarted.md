@@ -9,6 +9,8 @@ C++ is an **object-oriented programming language** that was created as an extens
 
 Another area where C++ excels is concurrency programming. Concurrency programming allows the user to have multiple functions or blocks of code executed at once. This is useful for programs like video games, where functions must happen simultaneously. When creating C++, Stroustrup drew inspiration from the Simula programming language, which has concurrency features.
 
+C++ was also designed to be a general-purpose, portable language. Stroustrup wanted to maintain these values from C when designing C++. C++ inherited all of the features of C and can be used with C compilers, making the language accessible and usable for all types of projects. 
+
 
 Some of the uses of C++ include:  
 - Video games
