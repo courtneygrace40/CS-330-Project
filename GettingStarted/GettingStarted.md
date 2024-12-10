@@ -1,6 +1,4 @@
-# C++ Tutorial
-
-Author: Courtney Sweeney
+# Getting Started
 
 ## Language Overview and Setup
 
