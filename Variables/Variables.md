@@ -1,4 +1,4 @@
-# Variables and Operators
+# Variables, Data Types, and Operators
 (https://www.w3schools.com/cpp/cpp_variables_identifiers.asp)
 
 Here are the rules for naming variables in C++:
