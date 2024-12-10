@@ -6,7 +6,7 @@ This is the repository for a tutorial that walks the user through the basics of 
 
 ### Table of Contents
 [1. Getting Started](GettingStarted/GettingStarted.md)   
-[2. Variables, Data Types, and Operator](Variables/Variables.md)   
+[2. Variables, Data Types, and Operators](Variables/Variables.md)   
 [3. Functions](Functions/Functions.md)   
 [4. Conditionals](Conditionals/Conditionals.md)   
 [5. Classes and Objects](ClassesAndObjects/ClassesAndObjects.md)   
