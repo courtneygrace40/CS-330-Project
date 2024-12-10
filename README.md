@@ -6,7 +6,7 @@ This is the repository for a tutorial that walks the user through the basics of 
 
 ## Table of Contents
 1. Getting Started
-2. Variables
+2. Variables and Data Types
 3. Functions
 4. Conditionals
 5. Classes and Objects
