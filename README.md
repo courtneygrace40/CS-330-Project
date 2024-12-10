@@ -10,4 +10,4 @@ This is the repository for a tutorial that walks the user through the basics of 
 [3. Functions](Functions/Functions.md)   
 [4. Conditionals](Conditionals/Conditionals.md)   
 [5. Classes and Objects](ClassesAndObjects/ClassesAndObjects.md)   
-[6. Programming Language Features](ProgrammingLanguageFeatures/ProgrammingLanguageFeatures.md)
+[6. Programming Language Features](ProgrammingLanguageFeatures/C++Features.md)
