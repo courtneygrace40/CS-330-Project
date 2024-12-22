@@ -39,4 +39,6 @@ Variables are stored on the stack in C++. As functions and variables are called,
 ## Dangling Else Problem in C++
 (https://www.geeksforgeeks.org/dangling-else-ambiguity/) 
 
-In C++, the "dangling else" can be dealt with by correctly using curly brackets to delineate scope. Since C++ does not understand indentation, curly brackets need to be used so that the compiler knows which if the else is associated with. 
+The "dangling else" problem arises when it is not clear which "if" an "else" is paired with. Different languages deal with this problem in different ways.
+
+In C++, the "dangling else" can be dealt with by correctly using curly brackets to delineate scope. Since C++ does not understand indentation, curly brackets need to be used so that the compiler knows which if the else is associated with. However, if brackets are not used correctly, C++ uses the innermost "if" as the "if" for the "else" that is dangling. 
