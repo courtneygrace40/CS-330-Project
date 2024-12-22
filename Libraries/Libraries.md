@@ -23,5 +23,9 @@ Here is an example of how to download libraries with Homebrew:
 
 ### Example Library: SFML
 
-Here is an example of how to download libraries manually:
-1. 
+Here is an example of how to download libraries manually:   
+1. Go to https://www.sfml-dev.org/download/sfml/2.6.1/
+2. Download the correct SFML version based on your operating system
+3. Unzip the files
+4. Move all of the files from the "frameworks" folder to the /Library/Frameworks folder (if you are using a Mac)
+5. To setup VS Code, follow the instructions at this link: https://www.sfml-dev.org/tutorials/2.6/start-vc.php
