@@ -28,7 +28,7 @@ Here is an example of how to download libraries manually:
 2. Download the correct SFML version based on your operating system
 3. Unzip the files
 4. Move all of the files from the "frameworks" folder to the /Library/Frameworks folder (if you are using a Mac)
-5. To setup VS Code, follow the instructions at this link: https://www.sfml-dev.org/tutorials/2.6/start-vc.php
+5. To set up VS Code, follow the instructions at this link: https://www.sfml-dev.org/tutorials/2.6/start-vc.php
 
 ### Library Use Links
 
