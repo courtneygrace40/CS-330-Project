@@ -10,6 +10,8 @@ Here are the rules for naming variables in C++:
 ## Some more information about variables and objects in C++:  
 There are 98 reserved keywords in C++. This includes words like "bool", "break", "or", "public", and "if". Typically, programmers use **"CamelCase"** for C++, which means that words are separated by capitals. For example, "myNum" would be CamelCase. When a variable is declared, the type must also be declared before the name. 
 
+### Mutability
+
 Objects in C++ are **mutable** by nature but can be converted to immutable by using "const". The "const" keyword is short for constant, meaning that the variable will become a constant, or in other words, **immutable**. 
 
 ## Variable Types  
