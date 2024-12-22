@@ -29,3 +29,22 @@ Here is an example of how to download libraries manually:
 3. Unzip the files
 4. Move all of the files from the "frameworks" folder to the /Library/Frameworks folder (if you are using a Mac)
 5. To setup VS Code, follow the instructions at this link: https://www.sfml-dev.org/tutorials/2.6/start-vc.php
+
+### Library Use Links
+
+Here is a collection of where I got my information on implementing the libraries in my code:  
+
+**NCurses:**
+1. https://dev.to/tbhaxor/introduction-to-ncurses-part-1-1bk5
+2. https://invisible-island.net/ncurses/ncurses-intro.html
+
+**SFML:**
+1. https://www.sfml-dev.org/tutorials/2.6/audio-sounds.php
+
+**Chrono:**
+1. https://www.geeksforgeeks.org/chrono-in-c/
+2. https://en.cppreference.com/w/cpp/chrono/time_point
+
+**Threads:**
+1. https://www.geeksforgeeks.org/multithreading-in-cpp/
+
