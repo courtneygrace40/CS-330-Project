@@ -79,7 +79,11 @@ return 0;
 
 (from https://www.w3schools.com/cpp/cpp_getstarted.asp)
 
-Comments in C++ are signified using //. To end a comment, make a new line. 
+### Comments 
+
+Single-line comments in C++ are signified using //. To end this comment, make a new line. To make a multi-line comment, begin the comment with /* and end it with */. 
+
+### Compiling Code
 
 There are two options to run this program. One is through VSCode, where there is a "run" option. The other is to select the corresponding terminal file and run it through the terminal. The latter is better for getting user input. Here is an image of what the terminal file looks like: 
 
