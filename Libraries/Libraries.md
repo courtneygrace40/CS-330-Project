@@ -21,4 +21,7 @@ Here is an example of how to download libraries with Homebrew:
 2. Enter this command: brew install ncurses
 3. To check if this worked, try the #include \<curses.h\>
 
-   
+### Example Library: SFML
+
+Here is an example of how to download libraries manually:
+1. 
