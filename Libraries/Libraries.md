@@ -8,9 +8,17 @@ Many libraries are included when C++ is downloaded, but some are more complex. T
 
 ### Downloading Homebrew
 
-To download homebrew, you need to follow these steps. 
+To download Homebrew, you need to follow these steps:   
 1. Open Terminal
 2. Enter this command exactly: /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 3. Check to see if it is installed correctly by entering this command: brew help
+4. If these steps don't work, visit the Homebrew website here: https://brew.sh/
 
 ### Example Library: NCurses
+
+Here is an example of how to download libraries with Homebrew:   
+1. Open Terminal
+2. Enter this command: brew install ncurses
+3. To check if this worked, try the #include \<curses.h\>
+
+   
