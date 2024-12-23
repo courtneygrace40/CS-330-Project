@@ -40,6 +40,8 @@ Here is a collection of where I got my information on implementing some of these
 
 **SFML:**
 1. https://www.sfml-dev.org/tutorials/2.6/audio-sounds.php
+2. https://cmake.org/cmake/help/book/mastering-cmake/chapter/Writing%20CMakeLists%20Files.html
+3. https://www.sfml-dev.org/tutorials/2.6/start-cmake.php
 
 **Chrono:**
 1. https://www.geeksforgeeks.org/chrono-in-c/
