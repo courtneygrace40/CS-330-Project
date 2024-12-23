@@ -32,7 +32,7 @@ Here is an example of how to download libraries manually:
 
 ### Library Use Links
 
-Here is a collection of where I got my information on implementing the libraries in my code:  
+Here is a collection of where I got my information on implementing some of these libraries in code:  
 
 **NCurses:**
 1. https://dev.to/tbhaxor/introduction-to-ncurses-part-1-1bk5
