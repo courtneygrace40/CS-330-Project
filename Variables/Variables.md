@@ -108,7 +108,7 @@ Some of these include:
   
 Here, the previously declared variables from above are used to perform different operations. Here, different types are used together in statements. C++ supports implicit conversion to deal with mixed-type operations. This means C++ converts variables to the same type before completing operations. Because values have to be declared as a type, C++ will convert the types into the correct type. (https://medium.com/@ctchalland/when-you-mix-nuts-and-bolts-type-conversion-c5f4f07e4d83)
 
-There are also ways to explicitly change types of variables. This includes declaring a new type for a variable through casting (int myDouble = int(myDouble);) and using to_string() (string strNum = to_string(myNum);). (https://unstop.com/blog/type-casting-and-type-conversion-in-cpp & https://unstop.com/blog/strings-in-cpp)
+There are also ways to explicitly change types of variables. This includes declaring a new type for a variable through casting (```int myDouble = int(myDouble);```) and using to_string() (```string strNum = to_string(myNum);```). (https://unstop.com/blog/type-casting-and-type-conversion-in-cpp & https://unstop.com/blog/strings-in-cpp)
 
 ```cpp
     int mySum = myNum + myDouble;
