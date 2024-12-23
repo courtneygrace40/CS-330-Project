@@ -79,10 +79,12 @@ double factorial(double myNum){
         }
     }
 ```
+## Pass-By-Reference and Pass-By-Value
+(https://www.w3schools.com/cpp/cpp_function_reference.asp)   
 C++ supports both pass-by-reference and pass-by-value. Pass-by-value works when a function has a copy of a variable passed into it. Something must be returned in this instance so that any changes to the variable are meaningful. When a function uses pass-by-value, the original value stays the same. Here is an example of a function using pass-by-value in C++:
 
 ```cpp
-double num2 = 6;
+double num2 = 6; 
 double num3 = 7;
 
 int multiplication(int num2, int num3){
