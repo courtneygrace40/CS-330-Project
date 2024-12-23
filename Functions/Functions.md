@@ -66,6 +66,8 @@ void swap(int *a , int *b){
     *b = temp;
 }
 ```
+While both of these methods work, caution should be exercised since both of these methods cause side effects. Side effects occur when functions change values outside of their scope. Because arrays are mutable, and pointers directly change values, both options create change outside of themselves. 
+
 ## Recursive Functions
 C++ supports recursive functions. A recursive function is when a function calls itself. Here is an example of a recursive function that finds the factorial of a number. 
 
