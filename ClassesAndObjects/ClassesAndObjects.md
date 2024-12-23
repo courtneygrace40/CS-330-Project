@@ -8,7 +8,7 @@ C++ is an object-oriented programming language. This means that programming in C
 
 Here is an example of a class. This class has three public attributes and a public method. When an instance of this class is created, it has all of the following attributes and has the method described in the class. Here, the class attributes do not have default values. **"string fName = "BLANK";"** where **"string fName;"** is would code a default value. 
 
-To code a class, begin with the "class" keyword followed with the name of the class. Inside of the curly brackets for the class, the public, private, and protected keywords can be used to define the access of the attributes and methods. A class can have a mix of access for its attributes and methods. 
+To code a class, begin with the "class" keyword followed by the name of the class. Inside the curly brackets for the class, the public, private, and protected keywords can be used to define the access of the attributes and methods. A class can have a mix of access for its attributes and methods. 
 
 **Access Types:** 
 1. Public: can be accessed from outside the class
@@ -28,6 +28,9 @@ class Person {
             }
     };
 ```
+## Class Limitations in C++
+
+While C++ is an object-oriented programming language, using classes has its limitations. Unlike Java, where separate files for class definitions can be used easily, class use is much more of a hassle in C++. C++ requires header and source files if separate class files are to be used in a program. This doubles the amount of extra files compared to Java and can get overwhelming very quickly in a true object-oriented project. 
 
 ## String Method and the "Friend" Keyword
 
