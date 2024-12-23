@@ -34,6 +34,8 @@ The scoping of a language is where variables can be accessed. C++ is a staticall
 
 In C++, variables created in functions are visible during the duration of that function and die when the function ends. If a variable is global, it is visible throughout the entire program and only dies when the program ends. Static variables are different. If a static variable is declared inside of a function, it is only visible inside of the function but lives until the end of the program. 
 
+Variables can either be local or global. Global variables are initialized outside of any function and can be accessed anywhere in a program. Local variables can only be accessed where they are created. 
+
 Scoping can cause side effects in languages where variables are changed when they are not supposed to be. In C++, using global variables and using pass-by-reference can create side effects. One of the guard rails in C++ is the "**const**" keyword, which causes the data in the variable to be unable to be changed. Another guardrail is to use variables only in the scope for which they were created. (https://www.w3schools.com/cpp/cpp_variables_constants.asp)
 
 ### Stack vs Heap Storage
