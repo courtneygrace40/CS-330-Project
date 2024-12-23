@@ -40,7 +40,9 @@ Scoping can cause side effects in languages where variables are changed when the
 
 ### Stack vs Heap Storage
 
-Variables are stored on the stack in C++. As functions and variables are called, they are pushed onto the stack and popped off once they are no longer needed. Dynamically allocated memory is stored on the heap. (https://www.learncpp.com/cpp-tutorial/the-stack-and-the-heap/)
+Variables are stored on the stack in C++. As functions and variables are called, they are pushed onto the stack and popped off once they are no longer needed. Functions are stored with their parameters, return line, return values, and call names. 
+
+Dynamically allocated memory is stored on the heap. This memory is created using the keyword "new". (https://www.learncpp.com/cpp-tutorial/the-stack-and-the-heap/)
 
 ## Dangling Else Problem in C++
 (https://www.geeksforgeeks.org/dangling-else-ambiguity/) 
