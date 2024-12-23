@@ -41,7 +41,7 @@ void whatNumber(string name, int num){
    cout << "\nMy name is " << name << ", and this is my number: " << num; 
 }
 ```
-
+## Returning Multiple Values
 Functions in C++ cannot by nature return two values. However, there are a few different ways around that. One way around this is to use **arrays**. When arrays are changed inside of a function in C++, they are also changed outside of it. Here is an example of a function that splits a string into two and returns both strings by storing them in an array. 
 
 ```cpp
@@ -66,7 +66,7 @@ void swap(int *a , int *b){
     *b = temp;
 }
 ```
-
+## Recursive Functions
 C++ supports recursive functions. A recursive function is when a function calls itself. Here is an example of a recursive function that finds the factorial of a number. 
 
 ```cpp
