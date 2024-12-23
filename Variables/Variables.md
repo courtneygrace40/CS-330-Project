@@ -106,7 +106,7 @@ Some of these include:
 - -- (decreases the value by 1) 
 
   
-Here, the previously declared variables from above are used to perform different operations, and different types are used together in statements. C++ supports implicit conversion to deal with mixed-type operations. This means C++ converts variables to the same type before completing operations. Because values have to be declared as a type, C++ will convert the types into the correct type. (https://medium.com/@ctchalland/when-you-mix-nuts-and-bolts-type-conversion-c5f4f07e4d83)
+Here, the previously declared variables from above are used to perform different operations, and different types are used together in statements. C++ supports implicit conversion to deal with mixed-type operations. This means C++ converts variables to the same type before completing operations. C++ also supports both widening and narrowing conversion. Because values have to be declared as a type, C++ will convert the types into the correct type. (https://medium.com/@ctchalland/when-you-mix-nuts-and-bolts-type-conversion-c5f4f07e4d83)
 
 There are also ways to explicitly change types of variables. This includes declaring a new type for a variable through casting (```int myDouble = int(myDouble);```) and using to_string() (```string strNum = to_string(myNum);```). (https://unstop.com/blog/type-casting-and-type-conversion-in-cpp & https://unstop.com/blog/strings-in-cpp)
 
@@ -126,7 +126,7 @@ There are also ways to explicitly change types of variables. This includes decla
 ## Data Structures in C++   
 C++ has many built-in complex data structures. Some of these include:   
 1. **Arrays** (https://www.w3schools.com/cpp/cpp_arrays.asp)
-Arrays store a collection of information that all **MUST** be the same data type. Here, "string" is declared when creating the array, so every piece of information in the array is a string.
+Arrays store a collection of information that all **MUST** be the same data type. This is one of the **major limitations** of C++. Here, "string" is declared when creating the array, so every piece of information in the array is a string.
 
 ```cpp
 string myArray[5] = {"Courtney", "Liv", "Aubrey", "Sarah", "Kayla"};
