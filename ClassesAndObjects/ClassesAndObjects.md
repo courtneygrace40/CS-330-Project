@@ -29,7 +29,7 @@ class Person {
     };
 ```
 
-### String Method and the "Friend" Keyword
+## String Method and the "Friend" Keyword
 
 C++ supports the overriding of operators, which can be used to create a "String" method to print an object. C++ uses **cout <<** to print, so the operation to be overridden would be **<<**. 
 
@@ -49,13 +49,13 @@ ostream& operator <<(ostream& os, const Student& st){
 (code inspiration: https://learn.microsoft.com/en-us/cpp/standard-library/overloading-the-output-operator-for-your-own-classes?view=msvc-170) 
 
 
-**"Friend" Keywod**
+### "Friend" Keywod
 
 Classes can use the keyword "friend" to allow other classes to use private and protected attributes and methods. In the example above, the "friend" attribute declares the ostream& operator function to use private and protected variables of the "Student" class. This is useful for writing string methods. 
 
 (https://learn.microsoft.com/en-us/cpp/cpp/friend-cpp?view=msvc-170)
 
-### Class Inheritance
+## Class Inheritance
 
 C++ supports class inheritance. To have one class inherit from another, use this syntax: **class Child: public Parent{}**. This tells C++ to use the attributes and functions of the parent class. There is no "super" keyword in C++ like there is in Java and Python, as C++ understands when attributes of an object's parent class are called. Here is an example of inheritance, where the class Student inherits from the class Person. 
 
@@ -75,26 +75,26 @@ class Student: public Person{
 };
 ```
 
-**Multilevel and Multiple Inheritance**
+### Multilevel and Multiple Inheritance
 
 C++ supports both multilevel and multiple inheritance. **Multilevel inheritance** occurs when an objects is derived from a child of a different class. If there was a "Student Athlete" class derived from the "Student" class, it would be the grandchild of the "Person" class. 
 
 **Multiple inheritance** occurs when a class inherits from two parent classes. If there was a "Student" class and an "Athlete" class, a "Student Athlete" class could inherit from both of them. To do this, the syntax would be: **class StudentAthlete: public Athlete, public Student{}**. In this case, the StudentAthlete class would inherit the attributes of both an Athlete and a Student. 
 
-**Overriding Functions**
+### Overriding Functions
 
 When a class inherits from another class, it can override functions so that they are specific to that class. This is very useful since oftentimes classes need the same function (an animal noise function, for example) but need different outputs or uses from it (animals make different noises). 
 
 Here is an example of a class overriding a function: 
 
-**Original function in Person:**
+### Original function in Person:
 ```cpp
 virtual void greeting(){
                 cout << "Hello traveler!";
             }
 ```
 
-**Overridden function in Student:**
+## Overridden function in Student:
 ```cpp
 void greeting() override{
                 cout << "You should be studying.";
