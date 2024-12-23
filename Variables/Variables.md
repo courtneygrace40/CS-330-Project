@@ -14,6 +14,10 @@ There are 98 reserved keywords in C++. This includes words like "bool", "break",
 
 Objects in C++ are **mutable** by nature but can be converted to immutable by using "const". The "const" keyword is short for constant, meaning that the variable will become a constant, or in other words, **immutable**. 
 
+```cpp
+const int myNum = 8;
+```
+
 ## Variable Types  
 **Here are the basic data types for variables in C++:** (from https://www.w3schools.com/cpp/cpp_variables.asp)
 1. **Integer:** an integer value (whole number) is stored with this data type
