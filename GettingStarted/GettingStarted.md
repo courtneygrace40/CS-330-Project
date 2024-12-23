@@ -79,6 +79,8 @@ return 0;
 }
 ```
 
+This is an example of how all code runs in C++. Code is primarily contained in functions, with a "main" function as a requirement of every program. The "main" function always returns type "int" and ends with "return 0;". Unlike other object-oriented programming languages, code is not contained in classes. The iostream library is included to print "Hello World!", and using namespace std saves time so that std:: isn't included before every function. 
+
 (from https://www.w3schools.com/cpp/cpp_getstarted.asp)
 
 ### Comments 
