@@ -1,3 +1,5 @@
+<img src="C++.png" alt="Banner" style="width:100%; height:auto;">
+
 # C++ Tutorial 
 
 Author: Courtney Sweeney
